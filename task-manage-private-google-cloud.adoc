@@ -1,0 +1,143 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-google-cloud.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
+summary: 管理您的通用和超大规模特定、端到端私人优惠流程以及适用于 AWS、Azure 和 Google Cloud 的NetApp智能服务接受和激活指南。 
+---
+= 接受并配置NetApp控制台的 Google Cloud 专属优惠
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+
+
+[role="lead"]
+接受 Google Cloud 控制台中NetApp控制台列表的 Marketplace 私人优惠。在控制台中配置 Google Cloud 凭据。
+
+.开始之前
+* 与NetApp销售人员合作创建私人优惠。您的销售团队必须向您提供优惠链接。
+* 您的结算帐户不得处于免费试用状态。免费试用帐户不能接受私人优惠。如果您尝试使用试用计费帐户，您将收到错误消息并需要NetApp云团队的帮助。
+* 接受该优惠需要以下 Google Cloud 权限：
++
+** `roles/billing.admin`针对目标 Cloud Billing 帐号或 Google Cloud 组织
+** `roles/viewer`对于计入 Cloud Billing 帐户的项目
+
+
+
+
+
+
+== 接受 Google Cloud 中的私人优惠
+
+一个 Google Cloud 项目只能与一个 Marketplace 订阅关联。如果您想对同一个 Google Cloud 项目中的工作负载使用两个不同的订阅，则必须创建两个单独的控制台帐户 - 每个订阅一个。
+
+[IMPORTANT]
+====
+您必须完成所有步骤才能激活您的私人优惠。跳过这些步骤可能会导致诸如重复充电等问题。
+
+如果您发现报价条款、定价或细节存在差异，或者您不确定接受哪个报价，请不要接受该报价。请联系您的NetApp客户团队以获取说明。
+
+====
+[NOTE]
+====
+如果您已经拥有有效的 PAYGO 订阅或修改后的私人优惠，则只需执行接受步骤。在这些情况下，市场会在同一列表中更新计划并保留相同的订阅 ID，因此控制台中的订阅关联保持不变。
+
+====
+.步骤
+. 单击NetApp销售团队提供的私人优惠激活链接。该链接应类似于以下内容：
+`https://console.cloud.google.com/marketplace/private-offers/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee`
+. 您将被重定向到 Google Cloud Marketplace，您可以在其中查看优惠详情：
++
+.. **结算账户**
+.. **产品**： NetApp控制台
+.. **优惠详情**
+.. **定价**
++
+[NOTE]
+====
+仔细检查计划细节、期限和定价。如果有任何不正确的地方，请不要接受该提议。请联系您的NetApp客户团队以获取修改。
+
+====
+
+
+. 确认信息准确，接受条款，然后单击**接受**。
+. 创建订阅时会出现一个加载图标。
+. 成功创建订阅后，会弹出窗口显示：*您的订单请求已发送至NetApp, Inc.*
+. 单击**向 NETAPP, Inc. 注册**。您将被重定向到NetApp控制台以完成订阅配置。如果您组织中的另一个人接受了专属优惠：
++
+.. 在 Google Cloud Marketplace 中，转到**订单**。
+.. 找到状态为**待定**的报价。
+.. 单击三点菜单并选择**向NetApp, Inc. 注册**
+
+
+. 您将被重定向至 `https://console.netapp.com`并提示登录。
+. 登录后，您将被重定向至 `https://console.netapp.com/licenses/overview`。将显示一个弹出窗口，您必须执行以下操作：
++
+.. 输入“SaaS 市场订阅”的显示名称。
+.. 选择应该有权访问订阅的控制台**帐户**。
+.. 或者，如果您想在一个控制台帐户中自动替换现有的 Marketplace 订阅，您可以启用**替换现有订阅**。
++
+[NOTE]
+====
+*** 此替换选项仅限于单个控制台帐户。
+*** 如果您需要将多个控制台帐户与同一个 Marketplace 订阅关联，则必须手动配置其他帐户。
+
+
+====
+
+
+. 单击**关联**，然后单击**完成**。
+
+
+
+
+== 将订阅与 Google Cloud 凭据关联
+
+. 在控制台中，转到**治理>许可证和订阅**并选择**市场订阅**选项卡。
+. 验证订阅详细信息：
++
+.. 找到在接受过程中创建的订阅。
+.. 验证显示的计划是否正确。
+.. 展开该行以确认私人优惠关联。
+
+
+
+
+[NOTE]
+====
+由于 Google Cloud Marketplace 的限制，某些字段可能会显示 `N/A`。此信息仅在 Google Cloud 控制台中提供。
+
+====
+. [可选] 重命名订阅：
++
+.. 点击订阅旁边的**三点菜单**。
+.. 选择**重命名订阅**。
+
+
+. 再次单击**三点菜单**并选择**配置**。
+. 选择适当的 Google Cloud 帐户**凭据**，然后点击**配置**。
+
+
+此 Google Cloud 凭证的 Marketplace 费用现在通过 Marketplace 订阅来计费。对于年度合同，此凭证的使用将计入年度合同。
+
+[IMPORTANT]
+====
+对您想要与 Marketplace 订阅关联的控制台帐户中的每个 Google Cloud 凭据重复步骤 1-5。
+
+* 要关联来自另一个控制台帐户的凭据，请使用**帐户**下拉菜单切换帐户并重复这些步骤。
+* 要关联另一个代理的凭据，请使用**代理**下拉菜单并重复这些步骤。
+
+
+====
+
+
+== 查看 Google Cloud 使用情况
+
+要查看 Google Cloud 信用状态和使用情况：
+
+. 在 Google Cloud 控制台中，转到 **Cloud Marketplace**。
+. 点击**您的订单**。
+. 从**选择账单账户**下拉菜单中，选择与您的私人优惠相关的账单账户。
+. 在表格中找到您的私人优惠，单击**三点菜单**，然后选择**查看信用**。
+

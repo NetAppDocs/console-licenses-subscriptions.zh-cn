@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: concept-digital-wallet.html 
+keywords: license, licensing, licenses, subscriptions, 
+summary: 通过许可证和订阅，您可以管理和监控NetApp控制台许可证、 NetApp市场订阅和NetApp Keystone。 
+---
+= 了解许可证和订阅
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以在 NetApp 控制台中管理和监控从NetApp购买的许可证 (BYOL)、 NetApp数据服务 (包括Cloud Volumes ONTAP ) 的市场订阅以及NetApp NetApp Keystone订阅。
+
+
+
+== 许可证和订阅如何在控制台中显示
+
+当您的控制台帐户也与NetApp支持站点 (NSS) 帐户关联时，许可证和订阅信息会自动显示在控制台中。如果您的控制台帐户未与 NSS 帐户关联，则需要手动添加许可证。手动添加许可证时，使用情况、容量和其他详细信息不会自动更新。
+
+
+NOTE: 您需要部署控制台代理来查看订阅信息。还需要代理来查看Cloud Volumes ONTAP 的节点许可证。
+
+
+
+=== 自动许可证发现
+
+控制台会自动查询NetApp许可服务以获取与您的NetApp支持站点帐户相关的许可证详细信息。查询成功后，控制台会自动添加许可证。
+
+
+
+=== 手动添加许可证
+
+如果控制台无法自动添加许可证，则需要手动添加。当您的控制台帐户未与您的NetApp支持站点帐户关联时，就会发生这种情况。
+
+从NetApp销售代表处购买许可证后， NetApp会向您发送一封电子邮件，其中包含序列号和许可详细信息。使用该序列号在控制台中添加或更新许可证。
+
+https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["了解如何将您的NetApp支持站点帐户添加到控制台凭证"^] 。
+
+
+
+== 支持的服务
+
+您可以在控制台中管理以下服务的许可证和订阅：
+
+* https://docs.netapp.com/us-en/console-backup-recovery/index.html["备份和恢复"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/index.html["灾难恢复"^]（仅限 BYOL）
+* https://docs.netapp.com/us-en/console-ransomware-protection/index.html["勒索软件抵御能力"^]
+* https://docs.netapp.com/us-en/console-tiering/index.html["云层"^]
+

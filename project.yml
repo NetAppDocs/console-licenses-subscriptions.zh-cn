@@ -1,0 +1,58 @@
+---
+settings:
+  name: Licenses and subscriptions
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
+sidebar:
+  entries:
+  - title: 许可证和订阅文档
+    url: "/index.html"
+  - title: 发行说明
+    entries:
+    - title: 什么是新的
+      url: "/whats-new.html"
+  - title: 开始使用
+    entries:
+    - title: 了解详情
+      url: "/concept-digital-wallet.html"
+  - title: 使用许可证和订阅
+    entries:
+    - title: 使用概览仪表板
+      url: "/task-homepage.html"
+    - title: 管理许可证
+      entries:
+      - title: 管理直接许可证
+        url: "/task-manage-data-services-licenses.html"
+      - title: 管理Cloud Volumes ONTAP 的许可证
+        entries:
+        - title: Cloud Volumes ONTAP的基于容量的许可证
+          url: "/task-manage-capacity-licenses.html"
+        - title: Cloud Volumes ONTAP的基于节点的许可证
+          url: "/task-manage-node-based-licenses.html"
+    - title: 管理专属优惠
+      entries:
+      - title: 管理 AWS 专属优惠
+        url: "/task-manage-private-aws.html"
+      - title: 管理 Azure 专属优惠
+        url: "/task-manage-private-azure.html"
+      - title: 管理 Google Cloud 专属优惠
+        url: "/task-manage-private-google-cloud.html"
+    - title: 管理 Marketplace 订阅
+      url: "/task-manage-subscriptions.html"
+    - title: 管理Keystone订阅
+      url: "/task-manage-keystone.html"
+    - title: 知识和支持
+      entries:
+      - title: 注册以获得支持
+        url: "/task-support-registration.html"
+      - title: 获取帮助
+        url: "/task-get-help.html"
+    - title: 法律声明
+      url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

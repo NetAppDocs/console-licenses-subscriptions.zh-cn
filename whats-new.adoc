@@ -1,0 +1,227 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, release notes, enhancements, fixes, licenses, subscriptions' 
+summary: 了解NetApp控制台许可证和订阅的新功能。 
+---
+= 什么是新的
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解NetApp控制台许可证和订阅的新功能。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXP现在是NetApp控制台
+
+NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+
+
+
+== 2025年3月10日
+
+
+
+=== 可以删除订阅
+
+如果您已取消订阅，现在可以从数字钱包中删除订阅。
+
+
+
+=== 查看 Marketplace 订阅的已消耗容量
+
+查看 PAYGO 订阅时，您现在可以查看订阅的已消耗容量。
+
+
+
+== 2025年2月10日
+
+BlueXP digital wallet经过重新设计，易于使用，现在提供额外的订阅和许可证管理。
+
+
+
+=== 新的概览仪表板
+
+数字钱包主页具有更新的NetApp许可证和 Marketplace 订阅仪表板，可以深入了解特定服务、许可证类型和所需的操作。
+
+
+
+=== 配置凭证订阅
+
+BlueXP digital wallet现在允许您配置对提供商凭证的订阅。通常，您在首次订阅 Marketplace 订阅或年度合同时执行此操作。以前，只能在“凭据”页面上更改订阅的凭据。
+
+
+
+=== 将订阅与组织关联
+
+您现在可以直接从数字钱包更新与订阅关联的组织。
+
+
+
+=== 管理 Cloud Volume ONTAP许可证
+
+您现在可以通过主页或“直接许可证”选项卡管理Cloud Volumes ONTAP许可证。使用“市场订阅”选项卡查看您的订阅信息。
+
+
+
+== 2024年3月5日
+
+
+
+=== BlueXP disaster recovery
+
+BlueXP digital wallet现在使您能够管理BlueXP disaster recovery的许可证。您可以添加许可证、更新许可证以及查看有关许可容量的详细信息。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["了解如何管理BlueXP数据服务的许可证"]
+
+
+
+== 2023 年 7 月 30 日
+
+
+
+=== 使用情况报告增强功能
+
+Cloud Volumes ONTAP使用情况报告现已有几项改进：
+
+* TiB 单位现在包含在列名中。
+* 现在包含一个用于序列号的新_node(s)_字段。
+* 存储虚拟机使用情况报告下现在包含一个新的“工作负载类型”列。
+* 工作环境名称现在包含在存储虚拟机和卷使用情况报告中。
+* 卷类型_file_现在标记为_Primary (Read/Write)_。
+* 卷类型 _secondary_ 现在标记为 _Secondary (DP)_。
+
+
+有关使用情况报告的更多信息，请参阅 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下载使用情况报告"]。
+
+
+
+== 2023年5月7日
+
+
+
+=== Google Cloud 私人优惠
+
+BlueXP digital wallet现在可以识别与私人优惠相关的 Google Cloud Marketplace 订阅，并显示订阅的结束日期和期限。此增强功能使您能够验证您是否已成功接受私人优惠并验证其条款。
+
+
+
+=== 充电使用情况明细
+
+现在，您可以了解订阅基于容量的许可证时需要支付的费用。您可以从BlueXP digital wallet下载以下类型的使用情况报告。使用情况报告提供您的订阅的容量详细信息，并告诉您如何为Cloud Volumes ONTAP订阅中的资源付费。可下载的报告可以轻松地与他人共享。
+
+* Cloud Volumes ONTAP软件包使用情况
+* 高级用法
+* 存储虚拟机使用情况
+* 卷使用情况
+
+
+有关使用情况报告的更多信息，请参阅 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下载使用情况报告"]。
+
+
+
+== 2023年4月3日
+
+
+
+=== 电子邮件通知
+
+BlueXP digital wallet现在支持电子邮件通知。
+
+如果您配置了通知设置，当您的 BYOL 许可证即将到期（“警告”通知）或已经到期（“错误”通知）时，您会收到电子邮件通知。
+
+https://docs.netapp.com/us-en/consosetup-admin/task-monitor-cm-operations.html["了解如何设置电子邮件通知"^]
+
+
+
+=== 市场订阅的许可容量
+
+查看Cloud Volumes ONTAP 的基于容量的许可时， BlueXP digital wallet现在会显示您通过市场私人优惠购买的许可容量。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["了解如何查看账户中已消耗的容量"] 。
+
+
+
+== 2022年11月6日
+
+
+
+=== 订阅和年度合同
+
+您现在可以从BlueXP digital wallet查看和管理BlueXP的 PAYGO 订阅和年度合同。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-subscriptions.html["了解如何管理您的订阅"] 。
+
+
+
+== 2022年9月18日
+
+
+
+=== 优化的 I/O 和 WORM 容量
+
+BlueXP digital wallet现在显示优化 I/O 许可包的摘要以及您帐户中Cloud Volumes ONTAP系统的预配置 WORM 容量。
+
+这些详细信息可以帮助您更好地了解收费方式以及是否需要购买额外的容量。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["了解如何查看账户中已消耗的容量"] 。
+
+
+
+== 2022 年 7 月 31 日
+
+
+
+=== 更改充电方式
+
+您现在可以更改使用基于容量的许可的Cloud Volumes ONTAP系统的收费方法。例如，如果您使用 Essentials 包部署了Cloud Volumes ONTAP系统，则可以在业务需求发生变化时将其更改为 Professional 包。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["了解如何更改充电方式"] 。
+
+
+
+== 2022 年 7 月 3 日
+
+
+
+=== 已消耗容量
+
+现在向您显示您的帐户中消耗的总容量以及许可包消耗的容量。这可以帮助您了解收费方式以及是否需要购买额外的容量。
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["显示基于容量的许可证页面的屏幕截图。该页面概述了您帐户中已消耗的容量，然后按许可包细分了已消耗的容量。"]
+
+
+
+== 2022年2月27日
+
+
+
+=== 本地ONTAP集群的许可证
+
+您现在可以查看本地ONTAP集群的清单及其硬件和服务合同到​​期日期。还提供了有关集群的更多详细信息。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["了解如何管理本地ONTAP集群的许可证"] 。
+
+
+
+== 2022年1月2日
+
+
+
+=== 许可条款自动更新
+
+如果您更改任何许可证的容量或期限，则许可证条款现在会自动在中更新。您不需要自己手动更新许可证。
+
+自动许可证更新适用于所有类型的Cloud Volumes ONTAP许可证以及所有数据服务许可证。

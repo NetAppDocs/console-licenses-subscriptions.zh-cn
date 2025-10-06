@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task-manage-data-services-licenses.html 
+keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, bluexp, netapp console, classification, tiering, backup and recovery, disaster recovery 
+summary: '管理您直接从NetApp (BYOL) 购买的用于NetApp数据服务的许可证。您可以查看已使用的许可证容量、剩余的可用容量，并且如果达到容量限制或到期日期，您将看到通知。' 
+---
+= 管理NetApp数据服务的许可证
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以管理直接从NetApp (BYOL) 购买的许可证，以用于NetApp数据服务，包括Cloud Volumes ONTAP。您可以查看已使用的许可证容量、剩余的可用容量，并且当达到容量限制或到期日期时您会看到通知。
+
+
+NOTE: *直接许可*页面列出了所有许可证。如果您想要特定数据服务的许可证详细信息，请使用*概览*仪表板上的数据服务图块。link:task-homepage.html#overview-page["详细了解概览仪表板"] 。
+
+此页面上的说明提供了适用于每项服务的信息。有关这些服务许可的更多具体信息，请参阅以下页面：
+
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["设置BlueXP backup and recovery的许可"^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["设置BlueXP disaster recovery的许可"^]
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["设置BlueXP ransomware protection的许可"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["设置BlueXP tiering许可"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["设置Cloud Volumes ONTAP许可"^]
+
+
+
+
+== 获取许可证文件
+
+<stdin> 中未解析的指令 - include::_include/task-obtain-license.adoc[]
+
+
+
+== 添加许可证
+
+<stdin> 中未解析的指令 - include::_include/task-add-license.adoc[]
+
+
+
+== 更新许可证
+
+<stdin> 中未解析的指令 - include::_include/task-update-license.adoc[]
+
+
+
+== 查看许可证状态
+
+<stdin> 中未解析的指令 - include::_include/task-view-license-status.adoc[]

@@ -1,0 +1,76 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, bluexp, netapp console, cloud volumes ontap license, cloud volumes ontap 
+summary: 在控制台的概览仪表板上获取您组织的所有订阅和许可证的概览。 
+---
+= 使用仪表板概览
+:allow-uri-read: 
+
+
+
+
+== 使用仪表板概览
+
+[role="lead"]
+使用控制台中的*概览*仪表板来监控您的许可证和订阅的健康状况，以确保您可以在订阅达到到期日或容量限制时管理成本并维护服务。
+
+您可以查看有关每项数据服务（包括Cloud Volumes ONTAP）的特定许可证和订阅信息，并深入了解每项服务的详细信息。
+
+您还会收到即将发生的容量限制或到期警报，并被提示采取行动。
+
+
+
+=== 查看特定数据服务的详细信息
+
+*概览*仪表板可以查看以下数据服务的详细信息：
+
+* Cloud Volumes ONTAP
+* 灾难恢复
+* 勒索软件抵御能力
+* 备份和恢复
+* 云层
+
+
+例如，负责管理Cloud Volumes ONTAP资源的管理员可以查看每个许可证或订阅的当前容量，从而使他们能够集中查看其权限范围内的资源。
+
+
+NOTE: 虽然您可以从仪表板更新和删除许可证，但您不能添加新的许可证或订阅。
+
+link:task-manage-data-services-licenses.html["了解有关管理许可证的详细信息"^] 。link:task-manage-subscriptions.html["了解有关管理订阅的更多信息"^] 。
+
+.步骤
+. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 选择*概览*。
+. 选择相应数据服务（包括Cloud Volumes ONTAP）的“查看”以查看详细信息并管理许可证和订阅。
++
+每个图块都提供了容量的图形概览。您可以查看详细信息页面来查看和管理该容量的付款方式。
+
+. 选择“*许可证*”或“*订阅*”选项卡。
+. 通过选择列过滤器和要过滤的值来过滤表格。例如，在“*订阅*”选项卡上，您可以按年度合同或订阅过滤“类型”列。
+. 自定义表中显示的列。您可以通过选择“*列*”图标来指示要显示或隐藏哪些列，从而在表中添加和删除列。
+. 展开任意行即可查看订阅或许可证包含的内容、购买的容量和条款的详细信息。
+. 使用操作菜单来管理特定的许可证或订阅，例如更新许可证或将订阅与其他组织关联。
++
+您无法从特定服务的*概览*页面添加新的许可证或订阅。您只能分别从“直接许可证”选项卡或“市场订阅”选项卡添加许可证或订阅。
+
++
+link:task-data-services-licenses.html["了解有关管理许可证的更多信息。"] link:task-manage-subscriptions.html["了解有关管理订阅的更多信息。"]
+
+
+
+
+
+=== 解决许可证或订阅问题
+
+您可以查看需要解决的许可证和订阅问题。问题包括许可证和订阅即将到期或达到容量上限。
+
+. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 选择*概览*。
+. 选择“需要操作”图块的“解决”来查看需要调整的问题。如果没有显示“*解决*”，则表示此时没有需要采取措施的问题。
+. 从“需要操作”页面中，选择“许可证”选项卡或“订阅”选项卡。
+. 使用操作菜单来解决问题。
++
+link:task-manage-data-services-licenses.html["了解有关管理许可证的详细信息"^] 。link:task-manage-subscriptions.html["了解有关管理订阅的更多信息"^] 。
+
+
