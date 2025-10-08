@@ -4,7 +4,7 @@ permalink: task-manage-private-google-cloud.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
 summary: 管理您的通用和超大规模特定、端到端私人优惠流程以及适用于 AWS、Azure 和 Google Cloud 的NetApp智能服务接受和激活指南。 
 ---
-= 接受并配置NetApp控制台的 Google Cloud 专属优惠
+= 接受并配置NetApp Console的 Google Cloud 专属优惠
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,7 +13,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 
 
 [role="lead"]
-接受 Google Cloud 控制台中NetApp控制台列表的 Marketplace 私人优惠。在控制台中配置 Google Cloud 凭据。
+接受 Google Cloud 控制台中NetApp Console列表的 Marketplace 私人优惠。在控制台中配置 Google Cloud 凭据。
 
 .开始之前
 * 与NetApp销售人员合作创建私人优惠。您的销售团队必须向您提供优惠链接。
@@ -50,7 +50,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 . 您将被重定向到 Google Cloud Marketplace，您可以在其中查看优惠详情：
 +
 .. **结算账户**
-.. **产品**： NetApp控制台
+.. **产品**： NetApp Console
 .. **优惠详情**
 .. **定价**
 +
@@ -64,7 +64,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 . 确认信息准确，接受条款，然后单击**接受**。
 . 创建订阅时会出现一个加载图标。
 . 成功创建订阅后，会弹出窗口显示：*您的订单请求已发送至NetApp, Inc.*
-. 单击**向 NETAPP, Inc. 注册**。您将被重定向到NetApp控制台以完成订阅配置。如果您组织中的另一个人接受了专属优惠：
+. 单击**向 NETAPP, Inc. 注册**。您将被重定向到NetApp Console以完成订阅配置。如果您组织中的另一个人接受了专属优惠：
 +
 .. 在 Google Cloud Marketplace 中，转到**订单**。
 .. 找到状态为**待定**的报价。
@@ -94,7 +94,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 
 == 将订阅与 Google Cloud 凭据关联
 
-. 在控制台中，转到**治理>许可证和订阅**并选择**市场订阅**选项卡。
+. 在控制台中，转到**治理>Licenses and subscriptions**并选择**市场订阅**选项卡。
 . 验证订阅详细信息：
 +
 .. 找到在接受过程中创建的订阅。

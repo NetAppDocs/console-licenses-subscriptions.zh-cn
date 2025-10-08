@@ -4,7 +4,7 @@ permalink: task-manage-private-azure.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
 summary: 管理您的通用和超大规模特定、端到端私人优惠流程以及适用于 AWS、Azure 和 Google Cloud 的NetApp智能服务接受和激活指南。 
 ---
-= 接受并激活NetApp控制台的 Azure 专属优惠
+= 接受并激活NetApp Console的 Azure 专属优惠
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 
 
 [role="lead"]
-在 Azure 门户中接受并订阅NetApp控制台的 Marketplace 专属优惠。在控制台中配置 Azure 凭据。
+在 Azure 门户中接受并订阅NetApp Console的 Marketplace 专属优惠。在控制台中配置 Azure 凭据。
 
 .开始之前
 * 与NetApp销售人员合作为您的 Azure 账单 ID 创建私人优惠。
@@ -74,7 +74,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 
 . 或者，设置*标签*（用于产品、站点位置、工作负载定义或命名约定）。
 . 单击“查看并订阅”，验证详细信息，然后单击“订阅”。
-. 订阅创建成功后，点击*立即配置账户*。这会将您重定向到NetApp控制台以完成配置。
+. 订阅创建成功后，点击*立即配置账户*。这会将您重定向到NetApp Console以完成配置。
 +
 [NOTE]
 ====
@@ -109,7 +109,7 @@ Azure 端自动化可能需要 30 秒到 5 分钟才能完成。如果在单击�
 
 == 使用 Azure 凭据配置订阅
 
-. 在控制台中，转到*治理>许可证和订阅*并选择*市场订阅*选项卡。
+. 在控制台中，转到*治理>Licenses and subscriptions*并选择*市场订阅*选项卡。
 . 验证订阅详细信息：
 +
 .. 找到您创建的 Marketplace 订阅。

@@ -35,14 +35,14 @@ NOTE: *市场订阅*页面列出了所有许可证。有关特定数据服务的
 --
 以下视频展示了从 AWS Marketplace 订阅NetApp Console 的步骤：
 
-.从 AWS Marketplace 订阅NetApp控制台
+.从 AWS Marketplace 订阅NetApp Console
 video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
 --
 .Azure
 --
-以下视频展示了从 Azure 市场订阅NetApp控制台的步骤：
+以下视频展示了从 Azure 市场订阅NetApp Console的步骤：
 
-.从 Azure Marketplace 订阅NetApp控制台
+.从 Azure Marketplace 订阅NetApp Console
 video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
 --
 .Google Cloud
@@ -54,7 +54,7 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 --
 ====
 .步骤
-. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择*市场订阅*。
 . 在*订阅*表上方，选择*添加订阅*。
 . 在添加订阅对话框中，选择一个云提供商。
@@ -75,7 +75,7 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 对于 Google Cloud，您还可以识别与私人优惠相关的市场订阅，这使您能够验证您是否成功接受了该优惠。
 
 .步骤
-. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择*市场订阅*。
 +
 您只会看到与您当前正在查看的组织相关的订阅。
@@ -118,7 +118,7 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 您可以重命名订阅以更好地识别您的组织如何使用它。
 
 .步骤
-. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择*市场订阅*。
 . 选择与您要管理的订阅相对应的行中的操作菜单，然后选择*重命名*。
 
@@ -134,7 +134,7 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 如果您已取消订阅，则“配置”选项将显示为灰色。
 
 .步骤
-. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择*市场订阅*。
 . 选择与您要配置的订阅对应的行中的操作菜单，然后选择*配置*。
 . 在配置对话框中，选择要与订阅一起配置的凭据。您只能从与当前选定代理相关的凭据中进行选择。如果您没有看到想要使用的凭证，请尝试切换到不同的代理视图。
@@ -154,7 +154,7 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 NOTE: 控制台支持标准模式下的身份和访问管理 (IAM)，使用组织来管理用户和资源。如果您在私人或受限模式下使用控制台，则可以使用控制台_帐户_来管理用户和资源，包括订阅。
 
 .步骤
-. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择*市场订阅*。
 . 在您想要关联的订阅的行中，打开操作菜单并选择*关联*。
 . 在*关联订阅*对话框中，选择一个或多个要与订阅关联的组织。
@@ -171,7 +171,7 @@ NOTE: 控制台支持标准模式下的身份和访问管理 (IAM)，使用组�
 NOTE: 如果需要，请使用顶部导航栏中的代理下拉菜单切换代理。
 
 .步骤
-. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择*市场订阅*。
 . 在包含要查看其凭据的订阅的行上，选择“查看”。如果多个凭证与一个订阅相关联，则可能不会显示任何凭证，并且会直接让您选择其他代理。
 
@@ -183,7 +183,7 @@ NOTE: 如果需要，请使用顶部导航栏中的代理下拉菜单切换代�
 您必须先取消配置，然后才能删除订阅。这将清除所有相关数据和设置。
 
 .步骤
-. 在NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 在NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择*市场订阅*。
 . 在您想要取消配置的订阅行中，单击操作菜单并选择*取消配置*。
 . 按照提示删除或重置任何相关设置或数据。
@@ -206,7 +206,7 @@ NOTE: 如果需要，请使用顶部导航栏中的代理下拉菜单切换代�
 
 ====
 .步骤
-. 在NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 在NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择*市场订阅*。
 . 在您要删除的订阅的行中，打开操作菜单并选择*删除*。
 +

@@ -22,9 +22,9 @@ NOTE: *直接许可*页面列出了所有许可证。如果您想要特定数据
 此页面上的说明提供了适用于每项服务的信息。有关这些服务许可的更多具体信息，请参阅以下页面：
 
 * https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["设置NetApp Backup and Recovery 的许可"^]
-* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["设置NetApp灾难恢复许可"^]
-* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["设置NetApp勒索软件恢复能力的许可"^]
-* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["设置NetApp Cloud Tiering 许可"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["设置NetApp Disaster Recovery许可"^]
+* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["设置NetApp Ransomware Resilience的许可"^]
+* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["设置NetApp Cloud Tiering许可"^]
 * https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["设置Cloud Volumes ONTAP许可"^]
 
 
@@ -68,7 +68,7 @@ ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
 
 == 添加许可证
 
-当与许可证关联的NetApp控制台帐户也是NetApp支持站点帐户并且可以访问互联网时，许可证信息会自动显示在**许可证和订阅**部分。如果您使用的控制台帐户未与您的 NSS 帐户关联，则需要手动添加许可证。
+当与许可证关联的NetApp Console帐户也是NetApp支持站点帐户并且可以访问互联网时，许可证信息会自动显示在**Licenses and subscriptions**部分。如果您使用的控制台帐户未与您的 NSS 帐户关联，则需要手动添加许可证。
 
 您可以在控制台中通过输入序列号和关联的 NSS 帐户或上传NetApp许可证文件 (NLF) 来添加许可证。如果控制台无法访问互联网（私人模式安装），您应该获取NetApp许可证文件进行上传。
 
@@ -78,7 +78,7 @@ ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
 NOTE: 要输入序列号，首先 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["将您的NetApp支持站点帐户添加到控制台"^]。这是有权访问序列号的NetApp支持站点帐户。
 
 .步骤
-. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*，然后选择 *直接许可证* 选项卡。
+. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*，然后选择 *直接许可证* 选项卡。
 . 选择*添加许可证*。
 . 在*添加许可证*对话框中，输入许可证信息并选择*添加许可证*：
 +
@@ -89,7 +89,7 @@ NOTE: 要输入序列号，首先 https://docs.netapp.com/us-en/console-setup-ad
 +
 如果您的NetApp支持站点帐户未从下拉列表中找到， https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["将 NSS 帐户添加到控制台"^]
 
-** 如果您有许可证文件（在私人模式下使用NetApp控制台时需要），请选择 *上传许可证文件* 选项并按照提示附加文件。
+** 如果您有许可证文件（在私人模式下使用NetApp Console时需要），请选择 *上传许可证文件* 选项并按照提示附加文件。
 
 
 

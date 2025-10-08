@@ -4,7 +4,7 @@ permalink: task-manage-private-aws.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
 summary: 管理您的通用和超大规模特定、端到端私人优惠流程以及适用于 AWS、Azure 和 Google Cloud 的NetApp智能服务接受和激活指南。 
 ---
-= 接受并配置NetApp控制台的 AWS Marketplace 专属优惠
+= 接受并配置NetApp Console的 AWS Marketplace 专属优惠
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 
 
 [role="lead"]
-在 AWS 控制台中接受NetApp控制台的 Marketplace 私人优惠，并在控制台中配置 AWS 凭证。
+在 AWS 控制台中接受NetApp Console的 Marketplace 私人优惠，并在控制台中配置 AWS 凭证。
 
 .开始之前
 * 与NetApp销售人员合作创建私人优惠并获取激活链接。
@@ -86,7 +86,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 
 
 . 接受后，横幅会确认订阅并提供注册说明。
-. 点击“设置您的帐户”。这将重定向到NetApp控制台来配置订阅。
+. 点击“设置您的帐户”。这将重定向到NetApp Console来配置订阅。
 +
 [NOTE]
 ====
@@ -122,7 +122,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 
 == 使用 AWS 凭证配置订阅
 
-. 在控制台中，转到*治理>许可证和订阅*并选择*市场订阅*选项卡。
+. 在控制台中，转到*治理>Licenses and subscriptions*并选择*市场订阅*选项卡。
 . 找到之前创建的订阅。展开该行以确认它与您的控制台帐户相关联。
 +
 [NOTE]

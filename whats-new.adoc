@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, release notes, enhancements, fixes, licenses, subscriptions' 
-summary: 了解NetApp控制台许可证和订阅的新功能。 
+summary: 了解NetApp Console许可证和订阅的新功能。 
 ---
 = 什么是新的
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 了解NetApp控制台许可证和订阅的新功能。
 
 
 [role="lead"]
-了解NetApp控制台许可证和订阅的新功能。
+了解NetApp Console许可证和订阅的新功能。
 
 
 
@@ -22,11 +22,11 @@ summary: 了解NetApp控制台许可证和订阅的新功能。
 
 
 
-=== BlueXP现在是NetApp控制台
+=== BlueXP现在是NetApp Console
 
-NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
 
-有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
 
 
 
@@ -88,7 +88,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-li
 
 
 
-== 2023 年 7 月 30 日
+== 2023年7月30日
 
 
 
@@ -180,7 +180,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 
 
-== 2022 年 7 月 31 日
+== 2022年7月31日
 
 
 
@@ -192,7 +192,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 
 
-== 2022 年 7 月 3 日
+== 2022年7月3日
 
 
 

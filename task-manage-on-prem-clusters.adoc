@@ -30,7 +30,7 @@ summary: 查看每个本地ONTAP集群的合同详细信息。如果您尚未在
 查看本地ONTAP集群的硬件和软件合同的状态，以便在合同到期之前进行续订。
 
 .步骤
-. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择 *On-Premises ONTAP*。
 +
 软件合同和硬件合同的到期日期出现在每个集群的行上。
@@ -54,7 +54,7 @@ summary: 查看每个本地ONTAP集群的合同详细信息。如果您尚未在
 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["了解发现选项和要求"^] 。
 
 .步骤
-. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*。
+. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择 *On-Premises ONTAP*。
 +
 您的ONTAP集群将显示其是否已在控制台中被发现的状态。

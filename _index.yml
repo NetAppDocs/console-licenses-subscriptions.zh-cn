@@ -1,9 +1,9 @@
 ---
 indexpage:
-  title: 许可证和订阅文档
-  summary: 在NetApp控制台中管理和监控您的许可证和订阅。
+  title: Licenses and subscriptions文档
+  summary: 在NetApp Console中管理和监控您的许可证和订阅。
   keywords: netapp console, bluexp, documentation, licenses, subscriptions
-  lead: 在NetApp控制台中管理和监控您的许可证和订阅。
+  lead: 在NetApp Console中管理和监控您的许可证和订阅。
   tiles:
   - title: 开始使用
     links:
@@ -23,9 +23,9 @@ indexpage:
       url: task-manage-keystone.html
   - title: 博客和社区
     links:
-    - title: NetApp控制台
+    - title: NetApp Console
       url: https://wwww.netapp.com/console
-    - title: NetApp数据服务
+    - title: NetApp Data Services
       url: https://wwww.netapp.com/data-services/
     - title: NetApp 社区
       url: https://community.netapp.com/
