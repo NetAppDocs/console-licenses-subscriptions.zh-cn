@@ -21,30 +21,113 @@ NOTE: *直接许可*页面列出了所有许可证。如果您想要特定数据
 
 此页面上的说明提供了适用于每项服务的信息。有关这些服务许可的更多具体信息，请参阅以下页面：
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["设置BlueXP backup and recovery的许可"^]
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["设置BlueXP disaster recovery的许可"^]
-* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["设置BlueXP ransomware protection的许可"^]
-* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["设置BlueXP tiering许可"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["设置Cloud Volumes ONTAP许可"^]
+* https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["设置NetApp Backup and Recovery 的许可"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["设置NetApp灾难恢复许可"^]
+* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["设置NetApp勒索软件恢复能力的许可"^]
+* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["设置NetApp Cloud Tiering 许可"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["设置Cloud Volumes ONTAP许可"^]
 
 
 
 
 == 获取许可证文件
 
-<stdin> 中未解析的指令 - include::_include/task-obtain-license.adoc[]
+如果控制台无法访问互联网（私人模式安装），您应该获取NetApp许可证文件进行上传。
+
+当您从NetApp销售代表处购买许可证时，您会收到一封包含序列号和许可详细信息的电子邮件。如果许可证未自动出现在控制台中，请使用序列号获取许可证文件。
+
+.步骤
+. 查找您的控制台帐户 ID：
++
+.. 在控制台的右上角，选择image:icon-settings-option.png["显示在 Web 控制台右上角的设置图标。"]> *身份和访问管理*。
+.. 在组织页面上，查找您的帐户 ID 并复制它。
++
+如果没有列出帐户 ID，而您只有组织 ID，请复制组织 ID 的前八个字符并将其附加到 *account-*
+
++
+例如，如果这是您的组织 ID：
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+您的帐户 ID 为：
+
++
+帐户-ea10e1c6
+
+
+
+. Sign in https://mysupport.netapp.com["NetApp 支持站点"^]并选择*系统 > 软件许可证*。
+. 输入您的许可证序列号。
+. 在*许可证密钥*列中，选择*获取NetApp许可证文件*。
+. 输入您的控制台帐户 ID（在支持站点上称为租户 ID）并选择 *提交* 以下载许可证文件。
+
 
 
 
 == 添加许可证
 
-<stdin> 中未解析的指令 - include::_include/task-add-license.adoc[]
+当与许可证关联的NetApp控制台帐户也是NetApp支持站点帐户并且可以访问互联网时，许可证信息会自动显示在**许可证和订阅**部分。如果您使用的控制台帐户未与您的 NSS 帐户关联，则需要手动添加许可证。
+
+您可以在控制台中通过输入序列号和关联的 NSS 帐户或上传NetApp许可证文件 (NLF) 来添加许可证。如果控制台无法访问互联网（私人模式安装），您应该获取NetApp许可证文件进行上传。
+
+从NetApp销售代表处购买许可证后， NetApp会向您发送一封电子邮件，其中包含序列号和其他许可详细信息。您需要该序列号才能在控制台中添加或更新相应的许可证。
+
+
+NOTE: 要输入序列号，首先 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["将您的NetApp支持站点帐户添加到控制台"^]。这是有权访问序列号的NetApp支持站点帐户。
+
+.步骤
+. 从NetApp控制台菜单中，选择 *治理 > 许可证和订阅*，然后选择 *直接许可证* 选项卡。
+. 选择*添加许可证*。
+. 在*添加许可证*对话框中，输入许可证信息并选择*添加许可证*：
++
+** 如果您有序列号并且知道您的 NSS 帐户，请选择*输入序列号*并输入该信息。
++
+如果您输入了序列号，您还需要选择有权访问该序列号的NetApp支持站点帐户。
+
++
+如果您的NetApp支持站点帐户未从下拉列表中找到， https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["将 NSS 帐户添加到控制台"^]
+
+** 如果您有许可证文件（在私人模式下使用NetApp控制台时需要），请选择 *上传许可证文件* 选项并按照提示附加文件。
+
+
+
 
 
 
 == 更新许可证
 
-<stdin> 中未解析的指令 - include::_include/task-update-license.adoc[]
+当您的许可期限即将到期或许可容量接近限制时，控制台会通知您。在许可证到期之前进行更新，以避免NetApp数据服务或Cloud Volumes ONTAP中断。
+
+从NetApp购买额外容量或延长许可证期限后，控制台会在满足以下两个条件时自动更新许可证：
+
+* 您的控制台帐户与NetApp支持站点帐户相关联
+* 控制台可以访问互联网
+
+
+如果您的控制台帐户未与您的 NSS 帐户关联，或者控制台在没有互联网访问的情况下以私人模式运行，则必须手动更新许可证。
+
+您可以使用以下任一方法手动更新许可证：
+
+* 输入序列号和关联的NSS帐户
+* 上传NetApp许可证文件（或Cloud Volumes ONTAP HA 对的文件）
+
+
+当您从NetApp销售代表处购买许可证时，您会收到一封包含序列号和许可详细信息的电子邮件。使用此序列号来更新许可证。
+
+
+NOTE: 要输入序列号，首先 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["将您的NetApp支持站点帐户添加到控制台"^]。此 NSS 帐户必须被授权访问序列号。
+
+.步骤
+. 联系您的NetApp代表购买新许可证。
++
+完成付款并且许可证在NetApp支持站点注册后，控制台会自动更新许可证。  *直接许可*页面会在 5 到 10 分钟内反映出变化。
+
+. 如果控制台无法自动更新许可证（例如，在私人模式下运行时），请从支持处获取NetApp许可证文件并手动上传。<<obtain-license,了解如何获取许可证文件。>>
+. 在“直接许可”选项卡上，选择image:icon-action.png["更多图标"]您要更新的序列号，然后选择*更新许可证*。
+. 在*更新许可证*页面，上传许可证文件并选择*更新许可证*。
+
 
 
 
