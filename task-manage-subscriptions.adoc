@@ -29,30 +29,6 @@ NOTE: *市场订阅*页面列出了所有许可证。有关特定数据服务的
 
 您可以直接从控制台订阅市场订阅。
 
-[role="tabbed-block"]
-====
-.AWS
---
-以下视频展示了从 AWS Marketplace 订阅NetApp Console 的步骤：
-
-.从 AWS Marketplace 订阅NetApp Console
-video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
---
-.Azure
---
-以下视频展示了从 Azure 市场订阅NetApp Console的步骤：
-
-.从 Azure Marketplace 订阅NetApp Console
-video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
---
-.Google Cloud
---
-以下视频展示了从 Google Cloud Marketplace 订阅NetApp Console 的步骤：
-
-.从 Google Cloud Marketplace 订阅NetApp Console
-video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
---
-====
 .步骤
 . 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
 . 选择*市场订阅*。
