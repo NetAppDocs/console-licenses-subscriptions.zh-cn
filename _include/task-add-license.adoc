@@ -12,7 +12,7 @@
 NOTE: 要输入序列号，首先 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["将您的NetApp支持站点帐户添加到控制台"^]。这是有权访问序列号的NetApp支持站点帐户。
 
 .步骤
-. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*，然后选择 *直接许可证* 选项卡。
+. 从NetApp Console菜单中，选择“管理 >Licenses and subscriptions”，然后选择“直接许可证”选项卡。
 . 选择*添加许可证*。
 . 在*添加许可证*对话框中，输入许可证信息并选择*添加许可证*：
 +

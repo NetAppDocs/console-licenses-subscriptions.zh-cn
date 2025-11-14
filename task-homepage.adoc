@@ -40,7 +40,7 @@ NOTE: 虽然您可以从仪表板更新和删除许可证，但您不能添加�
 link:task-manage-data-services-licenses.html["了解有关管理许可证的详细信息"^] 。link:task-manage-subscriptions.html["了解有关管理订阅的更多信息"^] 。
 
 .步骤
-. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
+. 从NetApp Console菜单中，选择“管理 >Licenses and subscriptions”。
 . 选择*概览*。
 . 选择相应数据服务（包括Cloud Volumes ONTAP）的“查看”以查看详细信息并管理许可证和订阅。
 +
@@ -65,7 +65,7 @@ link:task-data-services-licenses.html["了解有关管理许可证的更多信�
 
 您可以查看需要解决的许可证和订阅问题。问题包括许可证和订阅即将到期或达到容量上限。
 
-. 从NetApp Console菜单中，选择 *治理 >Licenses and subscriptions*。
+. 从NetApp Console菜单中，选择“管理 >Licenses and subscriptions”。
 . 选择*概览*。
 . 选择“需要操作”图块的“解决”来查看需要调整的问题。如果没有显示“*解决*”，则表示此时没有需要采取措施的问题。
 . 从“需要操作”页面中，选择“许可证”选项卡或“订阅”选项卡。
