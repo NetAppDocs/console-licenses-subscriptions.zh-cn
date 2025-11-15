@@ -844,7 +844,6 @@
   <block id="9fd469469f54b4e3870fda1513aae9b4" category="paragraph">== 典型配置路径 | 场景 | 推荐计费选项 | |-----------|-----------------------------| | 使用购买的NetApp容量 | 优先使用NetApp许可证 | | 仅使用 Marketplace 合约 | 仅使用 Marketplace 订阅 | | 在同一云提供商下为多个项目计费 | 启用自定义 CVO 配置 | | 恢复默认计费 | 禁用自定义 CVO 配置 |</block>
   <block id="9881eb87c4c1f6e3415d4a31b78cc0b8" category="summary">了解许可证和订阅如何定义NetApp Console如何管理直接许可证、云市场合同和NetApp Keystone的使用情况、计费和续订。</block>
   <block id="f94c83bcf4a8ed377dfb56f9bda7f82c" category="doc">了解许可证和订阅的计费方式</block>
-  <block id="599c9b0b724ff40d712e8b1a323b8f8d" category="paragraph">计费偏好设置决定了您如何处理组织内有效许可证和订阅的付款、发票和续订行为。您可以全局应用这些首选项，使其影响您组织内的所有计费关系；或者，当特定合同需要自己的配置时，也可以在单个订阅级别应用这些首选项。</block>
   <block id="8dc8efc61c3e8d351d2761bd0cd8d331" category="list-text">*市场订阅* 对应于云市场合同（AWS、Azure 或 Google Cloud），使用费通过超大规模帐户收取。</block>
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*直接许可证* 指的是直接从NetApp购买的许可证，通过许可证密钥、发票接收人和续订选项在NetApp Console中进行管理。</block>
   <block id="40ed87604c1cdf10c1530d65c122c3f4" category="paragraph">您可以根据采购模式配置组织如何分配和支付服务费用。</block>
@@ -854,7 +853,6 @@
   <block id="16595df5a4605390cff6c818f3223d5e" category="paragraph">计费偏好设置可确保正确应用使用费和续费。正确配置可以减少计费纠纷，并更容易管理结合了NetApp自有容量和市场购买容量的混合许可模式。</block>
   <block id="6da4e5f2a97800c29881b3e6f807c9f9" category="paragraph">例如，全局计费偏好设置可以统一您的发票联系人列表，以便所有服务共享一个计费管理员。您还可以使用成本中心标签来统一跨部门或地区的用量，并启用自动续订以防止服务中断。新的Cloud Volumes ONTAP (CVO) 部署会自动继承您在此处定义的计费模式，从而在添加新系统时保持您组织的计费模式的一致性。</block>
   <block id="6b5482849442a1db8a7dc9641fdb0267" category="paragraph">计费首选项在NetApp Console的“Licenses and subscriptions”部分中进行配置。</block>
-  <block id="26529241099f54472cd2ec577f895a28" category="paragraph">您可以在此处执行以下操作：- 设置组织的计费偏好 - 启用自定义 CVO 配置以进行高级映射 - 编辑或更新市场订阅详情</block>
   <block id="a4ca5edd20d0b5d502ebece575681f58" category="section-title">字段</block>
   <block id="e662217eb22f6b7b966f1ed07411a3dd" category="paragraph">计费字段存储有关每个许可证或订阅计费方式的元数据。它们描述了谁需要付费、续费方式以及每项服务所属的账户或成本中心。</block>
   <block id="5ea0317322a30367980e8c9bc0ba1526" category="section-title">市场领域</block>
@@ -943,15 +941,20 @@
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
   <block id="8db289a22d511fb89896cd05e3039ca2" category="sidebar">了解账单偏好设置</block>
   <block id="0b4efcd7fda8e806d38bca8ddb9e57b9" category="list-text">从NetApp Console菜单中，选择“管理 &gt;Licenses and subscriptions”，然后选择“直接许可证”选项卡。</block>
-  <block id="9c279367f9689e87b3033ad9104199ca" category="paragraph">更多信息，请参阅。<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block></block>
   <block id="9ef810f213faea9695f8494f68387049" category="list-text">从NetApp Console菜单中，选择“管理 &gt;Licenses and subscriptions”。</block>
   <block id="bb6a3f5790fd10ced1f6845ea4d3ba04" category="paragraph">您可以在NetApp Console中配置和管理计费首选项，以控制容量使用情况、续订和发票如何应用于您组织的帐户。计费方式决定了使用费是来自NetApp许可证、云市场合同还是Keystone协议。</block>
   <block id="9b2143cc5779100e7a55ef93f5906f84" category="list-text">在NetApp Console中，选择“管理 &gt;Licenses and subscriptions”。</block>
   <block id="42855d09afacbcf14c2e402fe229af93" category="list-text">*云项目*</block>
   <block id="7122970c90188deca8583df3506aa39c" category="list-text">从控制台菜单中，选择“管理”&gt;“Licenses and subscriptions”，然后选择“直接许可证”选项卡。</block>
   <block id="13ad11ec7b9bd0fe7c52fc12e83f93d4" category="list-text">如果需要跨多个超大规模数据中心进行多个订阅，请重复这些步骤。</block>
-  <block id="652e4824afa6b50187425c72ff981fe6" category="paragraph">有关市场订阅和直接许可计费的更多信息，请参阅<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block>。</block>
   <block id="dce3a4835fb0cd80cf119820cc31f008" category="list-text"><block ref="dce3a4835fb0cd80cf119820cc31f008" category="inline-link-rx"></block></block>
   <block id="ba181f9b0a33d0306573d0de387efad4" category="list-text"><block ref="ba181f9b0a33d0306573d0de387efad4" category="inline-link-rx"></block></block>
   <block id="7effa26776dad56a362038eae76fd1d8" category="list-text">在NetApp Console菜单中，选择“管理 &gt;Licenses and subscriptions”。</block>
+  <block id="3c3236b09e81f9868cfa639ca1fbe105" category="paragraph">欲了解更多信息，请参阅<block ref="5cdc12ff92d7ca20af8e5de10fe76183" category="inline-link-macro-rx"></block>。</block>
+  <block id="0bbe14145d06970fb76480d91f62735d" category="paragraph">计费偏好设置允许您确定如何处理有效许可证和订阅的付款和续订行为。您可以全局应用这些偏好设置，使其影响所有计费关系；或者，当特定合同需要进行单独配置时，也可以在单个订阅级别应用这些偏好设置。</block>
+  <block id="7167322ea9975145e470debb0dd9682c" category="paragraph">从那里，您可以：</block>
+  <block id="c612120099cf9dd3f393ed9419ca02db" category="list-text">为您的组织设置账单偏好</block>
+  <block id="2d71cedb2928350b6ef9e9d588d51e0d" category="list-text">启用自定义 CVO 配置以进行高级映射</block>
+  <block id="65bc511f5575c8f9267c515646eb9fa8" category="list-text">编辑或更新市场订阅详情</block>
+  <block id="821825341ee77cae5e1bfc15788cb576" category="paragraph">有关市场订阅和直接许可计费的更多信息，请参阅 <block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block>。</block>
 </blocks>
