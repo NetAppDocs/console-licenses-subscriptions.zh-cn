@@ -37,8 +37,8 @@ summary: 在NetApp Console中配置计费首选项，以控制许可证、市场
 ** *仅限市场订阅* – 所有使用费用均通过市场订阅直接计费。
 
 
-. 在“市场订阅”下，为每个超大规模云服务提供商（AWS、Azure 和 Google Cloud）选择订阅。
-. 如果您在单个超大规模数据中心下使用多个订阅，请启用*自定义 CVO 配置*。
+. 在 *Marketplace subscriptions* 下，为每个云提供商（AWS、Azure 和 Google Cloud）选择订阅。
+. 如果在单个云提供商下使用多个订阅，请启用 *自定义 CVO 配置*。
 . （可选）更新*发票联系人*和*通知联系人*。
 . （可选）输入*成本中心标签*，将账单与内部会计代码关联起来。
 . 选择“保存更改”。
@@ -53,22 +53,22 @@ NOTE: 改变计费方式会重新分配服务费用。新的Cloud Volumes ONTAP 
 
 
 
-== 启用自定义 CVO 配置
+== 启用自定义 Cloud Volumes ONTAP 配置
 
-自定义 CVO 配置允许您在同一个超大规模数据中心下分配多个市场订阅。如果您的组织为不同的业务部门或环境维护不同的计费帐户，请使用此模式。
+现在，您可以将特定的市场订阅分配给同一云提供商下的单个 Cloud Volumes ONTAP 实例。如果您的组织为不同的业务部门或环境维护不同的计费帐户，请使用此模式。
 
 .步骤
 . 在NetApp Console中，选择“管理 >Licenses and subscriptions”。
 . 选择*账单偏好设置*。
-. 在**市场订阅**下，启用*自定义 CVO 配置*。
+. 在 **Marketplace subscriptions** 下，启用 *Custom CVO configuration*。
 . 选择**保存更改**。
 
 
 .结果
-现在您可以将特定的市场订阅分配给同一超大规模云服务商下的各个Cloud Volumes ONTAP实例。
+现在，您可以将特定的市场订阅分配给同一云提供商下的单个 Cloud Volumes ONTAP 实例。
 
 
-WARNING: 启用此功能后，无法从**计费首选项**中还原自定义 CVO 配置。禁用此功能会将所有 CVO 计费重置为数据服务的标准计费配置。
+WARNING: 启用此功能后，无法从**账单首选项**还原自定义 Cloud Volumes ONTAP 配置。禁用此功能会将所有 Cloud Volumes ONTAP 计费重置为数据服务的标准计费配置。
 
 
 
@@ -114,4 +114,4 @@ TIP: 要将一个订阅映射到多个云项目，请先确保启用*自定义 C
 
 
 .结果
-CVO 实例将恢复为与其他数据服务相同的默认标准计费方式。
+Cloud Volumes ONTAP 实例返回到用于其他数据服务的默认标准计费方法。

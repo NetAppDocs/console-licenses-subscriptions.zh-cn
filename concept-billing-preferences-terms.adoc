@@ -1,11 +1,17 @@
-= 
+---
+sidebar: sidebar 
+permalink: concept-billing-preferences-terms.html 
+keywords: license, licensing, licenses, subscriptions, 
+summary: 通过许可证和订阅，您可以管理和监控NetApp Console许可证、 NetApp市场订阅和NetApp Keystone。 
+---
+= 术语和定义
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
 
-
---
-侧边栏：侧边栏永久链接：concept-billing-preferences-terms.html 关键词：许可证、许可、订阅、摘要：“许可证和订阅使您能够管理和监控NetApp Console许可证、 NetApp Marketplace 订阅和NetApp Keystone。”---
-
-= 术语和定义 :hardbreaks: :nofooter: :icons: font :linkattrs: :imagesdir: ./media/
 
 [role="lead"]
 计费首选项控制NetApp Console如何处理您的许可证和订阅的付款、发票和续订行为。您可以在以下两个级别之一设置偏好：
@@ -21,20 +27,52 @@
 * * Keystone订阅* — 账单将通过您的Keystone协议进行结算。您可以在NetApp Console中管理发票收件人和成本中心标签。
 
 
-== 权限 您需要拥有 *帐户管理员* 或 *账单管理员* 角色才能更改账单首选项。操作员可以查看偏好设置，但无法修改。
+
+
+== 权限
+
+您需要 *Account Admin* 或 *Billing Admin* 角色才能更改账单偏好设置。操作员可以查看偏好设置，但不能修改它们。
+
+
 
 == 设置账单偏好
 
 计费偏好设置可让您： - 在所有服务中强制使用单一发票联系人列表， - 将使用情况与成本中心对齐， - 管理自动续订和到期通知， - 确保新的Cloud Volumes ONTAP (CVO) 系统继承正确的计费帐户。
 
-= 账单字段：页面角色：参考
 
-== Marketplace 字段 * *Marketplace 提供商* — AWS、Azure 或 Google Cloud。  **结算账户/订阅 ID** — 用于收费的云结算账户。  **合同期限** — 期限长度和续约行为。
 
-= 计费选项和定义：页面角色：参考
+= 账单字段
 
-== 条款和选项 * ** NetApp许可证优先 ** — 根据有效的NetApp许可证计费。更多使用权转移到了市场。  * **仅限市场订阅用户** — 所有使用量均通过市场合同计费。  * **按需付费（PAYGO）** — 按实际使用量计费的灵活订阅模式。  * **年度合同** — 固定期限的市场订阅。  * **自动续约** — 合同到期后自动续约。  * **自定义 CVO 配置** — 高级模式，用于映射每个超大规模数据中心的多个订阅。  * **直接许可** — 在市场容量之前使用的NetApp管理许可。  * **超大规模云服务提供商** — AWS、Azure 或 Google Cloud 提供商。  * **确认更改对话框** — 在应用更新之前显示，以防止意外更改账单。
 
-== 典型配置路径 | 场景 | 推荐计费选项 | |-----------|-----------------------------| | 使用购买的NetApp容量 | 优先使用NetApp许可证 | | 仅使用 Marketplace 合约 | 仅使用 Marketplace 订阅 | | 在同一云提供商下为多个项目计费 | 启用自定义 CVO 配置 | | 恢复默认计费 | 禁用自定义 CVO 配置 |
 
---
+== 市场领域
+
+* *Marketplace provider* — AWS、Azure 或 Google Cloud。
+* *账单账户/订阅 ID* — 要收费的云账单账户。
+* *合约期限* — 期限长度和续约行为。
+
+
+
+
+= 计费选项和定义
+
+
+
+== 条款和选项
+
+* **NetApp 许可证优先** — 根据有效 NetApp 许可证开具账单。额外的使用转移到市场。
+* **仅限 Marketplace 订阅** — 所有使用情况均通过 marketplace 合约收费。
+* **PAYGO (Pay-As-You-Go)** — 按实际使用量计费的灵活订阅。
+* **年度合约** — 固定期限的市场订阅。
+* **自动续订** — 到期时自动续订合同。
+* **自定义 CVO 配置** — 用于映射每个云提供商的多个订阅的高级模式。
+* **直接许可证** — NetApp 管理的许可证，在市场容量之前使用。
+* **超大规模** — AWS、Azure 或 Google Cloud 提供商。
+* **确认更改对话框** — 在应用更新之前显示，以防止意外账单更改。
+
+
+
+
+== 典型配置路径
+
+| 场景 | 推荐的计费选项 | |-----------|-----------------------------| | 使用购买的 NetApp 容量 | NetApp 许可证优先 | | 仅使用市场合同 | 仅市场订阅 | | 在一个云提供商下计费多个项目 | 启用自定义 CVO 配置 | | 恢复为默认计费 | 禁用自定义 CVO 配置 |

@@ -37,7 +37,7 @@ summary: 在控制台的概览仪表板上获取您组织的所有订阅和许�
 
 NOTE: 虽然您可以从仪表板更新和删除许可证，但您不能添加新的许可证或订阅。
 
-link:task-manage-data-services-licenses.html["了解有关管理许可证的详细信息"^] 。link:task-manage-subscriptions.html["了解有关管理订阅的更多信息"^] 。
+link:task-manage-data-services-licenses.html["了解有关管理许可证的详细信息"]。link:task-manage-subscriptions.html["了解有关管理订阅的更多信息"]。
 
 .步骤
 . 从NetApp Console菜单中，选择“管理 >Licenses and subscriptions”。
@@ -55,7 +55,7 @@ link:task-manage-data-services-licenses.html["了解有关管理许可证的详�
 您无法从特定服务的*概览*页面添加新的许可证或订阅。您只能分别从“直接许可证”选项卡或“市场订阅”选项卡添加许可证或订阅。
 
 +
-link:task-data-services-licenses.html["了解有关管理许可证的更多信息。"] link:task-manage-subscriptions.html["了解有关管理订阅的更多信息。"]
+link:task-manage-data-services-licenses.html["了解有关管理许可证的更多信息。"] link:task-manage-subscriptions.html["了解有关管理订阅的更多信息。"]
 
 
 
@@ -71,6 +71,6 @@ link:task-data-services-licenses.html["了解有关管理许可证的更多信�
 . 从“需要操作”页面中，选择“许可证”选项卡或“订阅”选项卡。
 . 使用操作菜单来解决问题。
 +
-link:task-manage-data-services-licenses.html["了解有关管理许可证的详细信息"^] 。link:task-manage-subscriptions.html["了解有关管理订阅的更多信息"^] 。
+link:task-manage-data-services-licenses.html["了解有关管理许可证的详细信息"]。link:task-manage-subscriptions.html["了解有关管理订阅的更多信息"]。
 
 

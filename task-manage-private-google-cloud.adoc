@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-google-cloud.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
-summary: 管理您的通用和超大规模特定、端到端私人优惠流程以及适用于 AWS、Azure 和 Google Cloud 的NetApp智能服务接受和激活指南。 
+summary: 接受 Google Cloud 控制台中NetApp Console列表的 Marketplace 私人优惠。在控制台中配置 Google Cloud 凭据。 
 ---
 = 接受并配置NetApp Console的 Google Cloud 专属优惠
 :hardbreaks:
@@ -10,6 +10,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 :nofooter: 
 :icons: font
 :linkattrs: 
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -93,7 +94,7 @@ summary: 管理您的通用和超大规模特定、端到端私人优惠流程�
 . 查看应用商店的订阅选项。
 . 选择您要计费的商城订阅服务。这仅适用于存在多个选项的情况。
 . 选择**保存更改**。
-. 如果需要跨多个超大规模数据中心进行多个订阅，请重复这些步骤。
+. 如果存在跨多个云提供商的多个订阅，请根据需要重复这些步骤。
 
 
 有关市场订阅和直接许可计费的更多信息，请参阅 link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["账单偏好文档"]。
