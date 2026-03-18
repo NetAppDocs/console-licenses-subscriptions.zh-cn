@@ -85,8 +85,8 @@ Azure 端自动化可能需要 30 秒到 5 分钟才能完成。如果在单击�
 . 登录后，您将被重定向至 https://console.netapp.com/licenses/overview[]。系统将提示您：
 +
 .. 输入市场订阅的*显示名称*。
-.. 选择应该有权访问此订阅的控制台*帐户*。
-.. 或者，您可以启用*替换现有订阅*来自动替换一个控制台帐户中现有的 Marketplace 订阅。
+.. 选择应具有此订阅访问权限的 Console *Organizations*。
+.. 您也可以启用 *Replace existing subscription* ，以自动替换一个 Console 组织中的现有 Marketplace 订阅。
 +
 [NOTE]
 ====

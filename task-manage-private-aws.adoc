@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-aws.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
-summary: 在 AWS 控制台中接受NetApp Console的 Marketplace 私人优惠，并在控制台中配置 AWS 凭证。 
+summary: 在 AWS Marketplace 门户中接受 NetApp Console 的 Marketplace 私有优惠，并在 Console 中配置 AWS 凭据。 
 ---
 = 接受并配置NetApp Console的 AWS Marketplace 专属优惠
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 在 AWS 控制台中接受NetApp Console的 Marketplace 私人优惠，
 
 
 [role="lead"]
-在 AWS 控制台中接受NetApp Console的 Marketplace 私人优惠，并在控制台中配置 AWS 凭证。
+在 AWS Marketplace 门户中接受 NetApp Console 的 Marketplace 私有优惠，并在 Console 中配置 AWS 凭据。
 
 .开始之前
 * 与NetApp销售人员合作创建私人优惠并获取激活链接。
@@ -28,7 +28,7 @@ summary: 在 AWS 控制台中接受NetApp Console的 Marketplace 私人优惠，
 
 
 
-== 在 AWS 控制台中接受私人优惠
+== 在 AWS Marketplace 门户中接受私人优惠
 
 需要在控制台中完成订阅分配才能激活购买并应用折扣价格。
 
@@ -93,12 +93,12 @@ summary: 在 AWS 控制台中接受NetApp Console的 Marketplace 私人优惠，
 如果您接受了报价但未完成注册，请返回产品页面。对于合同列表，单击“查看购买选项”以显示报价，然后选择“设置您的帐户”。
 
 ====
-. Sign in https://console.netapp.com[]使用您的控制台帐户。
+. Sign in 地址： https://console.netapp.com[]。
 . 登录后，导航至 https://console.netapp.com/licenses/overview[]。系统将提示您：
 +
 .. 输入 Marketplace 订阅的“显示名称”。
-.. 选择具有订阅访问权限的控制台*帐户*。
-.. [可选] 启用“替换现有订阅”以覆盖一个帐户的现有订阅。
+.. 选择具有订阅访问权限的 Console *Organization*。
+.. [可选] 启用 *Replace existing subscription* 以覆盖组织的现有订阅。
 +
 [NOTE]
 ====
