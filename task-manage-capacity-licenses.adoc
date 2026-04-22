@@ -10,7 +10,7 @@ summary: 从控制台管理基于容量的许可证，以确保您的NetApp帐�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/media/
 
 
 [role="lead lead"]

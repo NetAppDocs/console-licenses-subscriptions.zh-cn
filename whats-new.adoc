@@ -210,9 +210,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === 已消耗容量
 
-现在向您显示您的帐户中消耗的总容量以及许可包消耗的容量。这可以帮助您了解收费方式以及是否需要购买额外的容量。
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["显示基于容量的许可证页面的屏幕截图。该页面概述了您帐户中已消耗的容量，然后按许可包细分了已消耗的容量。"]
+Digital Wallet 现在显示您帐户中的总消耗容量和通过许可套餐消耗的容量。这可以帮助您了解系统如何向您收费，以及您是否需要购买额外的容量。
 
 
 

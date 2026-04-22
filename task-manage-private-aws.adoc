@@ -38,7 +38,7 @@ summary: 在 AWS Marketplace 门户中接受 NetApp Console 的 Marketplace 私�
 
 ====
 .步骤
-. 单击NetApp销售团队提供的私人优惠激活链接。该链接应类似于以下内容：
+. 从您的 NetApp 销售团队中选择私人优惠激活链接。此链接应类似于以下内容：
 `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
 +
  If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
@@ -81,16 +81,16 @@ summary: 在 AWS Marketplace 门户中接受 NetApp Console 的 Marketplace 私�
 ====
 . 要接受私人优惠，请执行以下操作：
 +
-.. 如需按需使用，请点击*订阅*。
-.. 对于合同要约，请输入每项服务的单位数，然后单击*创建合同*。
+.. 如需按需使用，请选择 *Subscribe* 。
+.. 对于合同优惠，请输入每项服务的单位数量，然后选择 *Create contract*。
 
 
 . 接受后，横幅会确认订阅并提供注册说明。
-. 点击“设置您的帐户”。这将重定向到NetApp Console来配置订阅。
+. 选择*设置您的账号*。这将重定向到 NetApp Console 以配置订阅。
 +
 [NOTE]
 ====
-如果您接受了报价但未完成注册，请返回产品页面。对于合同列表，单击“查看购买选项”以显示报价，然后选择“设置您的帐户”。
+如果您接受了优惠但未完成注册，请返回产品页面。对于合同列表，选择 *View purchase options* 以显示优惠，然后选择 *Set up your account*。
 
 ====
 . Sign in 地址： https://console.netapp.com[]。
@@ -110,8 +110,8 @@ summary: 在 AWS Marketplace 门户中接受 NetApp Console 的 Marketplace 私�
 ====
 
 
-. 点击**关联**。
-. 填写此表格，将订阅与您的 Console 组织关联起来。然后，点击**关联**。
+. 选择 **Associate**。
+. 填写表格，将订阅与您的 Console 组织相关联。选择 **关联**。
 . 关联订阅后，导航并选择“账单偏好设置”选项卡。
 . 查看应用商店的订阅选项。
 . 选择您要计费的商城订阅服务。这仅适用于存在多个选项的情况。

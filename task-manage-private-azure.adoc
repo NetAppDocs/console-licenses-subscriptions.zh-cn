@@ -48,17 +48,17 @@ summary: 在 Azure 门户中接受并订阅NetApp Console的 Marketplace 专属�
 
 ====
 .步骤
-. 单击NetApp销售团队提供的私人优惠链接并登录。如果没有可用的链接，请直接登录 Azure 门户。
+. 选择您的 NetApp 销售团队提供的私人优惠链接并登录。如果没有可用的链接，请直接登录到 Azure 门户。
 . 从 Azure 服务中搜索或选择*Marketplace*。
-. 在 Marketplace 页面上，单击 *管理* 部分下的 *私人优惠管理*。
-. 单击“查看 + 接受”以查看私人优惠的详细信息。
+. 在 Marketplace 页面的 *Management* 部分下，选择 *Private offer management*。
+. 选择 *View + accept* 以查看私人优惠的详细信息。
 +
 .. 验证*计划详情*、*条款*和*定价*是否正确。
 .. 如果详细信息不正确，请不要订阅。联系您的NetApp销售团队来更正报价。
 
 
-. 确认并点击*接受私人优惠*。
-. 单击*购买*以完成购买过程。
+. 确认并选择 *Accept private offer*。
+. 选择 *Purchase* 以完成购买流程。
 +
 [NOTE]
 ====
@@ -73,12 +73,12 @@ summary: 在 Azure 门户中接受并订阅NetApp Console的 Marketplace 专属�
 
 
 . 或者，设置*标签*（用于产品、站点位置、工作负载定义或命名约定）。
-. 单击“查看并订阅”，验证详细信息，然后单击“订阅”。
-. 订阅创建成功后，点击*立即配置账户*。这会将您重定向到NetApp Console以完成配置。
+. 选择 *Review and subscribe*，验证详细信息，然后选择 *Subscribe*。
+. 成功创建订阅后，选择*立即配置帐户*。此操作会将您重定向到 NetApp Console 以完成配置。
 +
 [NOTE]
 ====
-Azure 端自动化可能需要 30 秒到 5 分钟才能完成。如果在单击“立即配置帐户”之前页面已关闭，请返回 Azure 门户中的服务。订阅显示为*待定配置*。选择它继续配置。
+Azure 端自动化可能需要 30 秒到 5 分钟才能完成。如果页面在选择 *立即配置帐户* 之前已关闭，请返回 Azure 门户中的服务。订阅显示为 *待配置*。选择它以继续配置。
 
 ====
 . 您将被重定向至 https://console.netapp.com[]并提示登录。
@@ -86,7 +86,7 @@ Azure 端自动化可能需要 30 秒到 5 分钟才能完成。如果在单击�
 +
 .. 输入市场订阅的*显示名称*。
 .. 选择应具有此订阅访问权限的 Console *Organizations*。
-.. 您也可以启用 *Replace existing subscription* ，以自动替换一个 Console 组织中的现有 Marketplace 订阅。
+.. （可选）启用 *Replace existing subscription* ，以自动替换一个 Console 组织中的现有 Marketplace 订阅。
 +
 [NOTE]
 ====
@@ -97,8 +97,8 @@ Azure 端自动化可能需要 30 秒到 5 分钟才能完成。如果在单击�
 ====
 
 
-. 点击**关联**。
-. 填写此表格，将订阅与您的 Console 组织关联起来。然后，点击**关联**。
+. 选择 **Associate**。
+. 填写表格，将订阅与您的 Console 组织相关联。选择 **关联**。
 . 关联订阅后，导航并选择“账单偏好设置”选项卡。
 . 查看应用商店的订阅选项。
 . 选择您要计费的商城订阅服务。这仅适用于存在多个选项的情况。

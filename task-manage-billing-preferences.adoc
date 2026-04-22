@@ -14,7 +14,7 @@ summary: 在NetApp Console中配置计费首选项，以控制许可证、市场
 
 
 [role="lead"]
-您可以在NetApp Console中配置和管理计费首选项，以控制容量使用情况、续订和发票如何应用于您组织的帐户。计费方式决定了使用费是来自NetApp许可证、云市场合同还是Keystone协议。
+您可以在 NetApp Console 中配置和管理账单首选项，以控制如何将容量使用、续订和发票应用于组织的帐户。账单首选项决定了使用费是来自 NetApp 许可证、云市场合同还是 Keystone 协议。
 
 .开始之前
 * 您拥有*管理员*角色权限。
@@ -49,7 +49,7 @@ summary: 在NetApp Console中配置计费首选项，以控制许可证、市场
 NetApp Console更新计费映射。未来的服务费用和续费将采用所选配置。
 
 
-NOTE: 改变计费方式会重新分配服务费用。新的Cloud Volumes ONTAP (CVO) 实例会自动继承所选配置。
+NOTE: 更改计费模式会重新分配服务费的收取方式。新 Cloud Volumes ONTAP 实例自动继承选定配置。
 
 
 
