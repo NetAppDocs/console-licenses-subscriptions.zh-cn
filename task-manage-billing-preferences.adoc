@@ -17,10 +17,11 @@ summary: 在NetApp Console中配置计费首选项，以控制许可证、市场
 您可以在 NetApp Console 中配置和管理账单首选项，以控制如何将容量使用、续订和发票应用于组织的帐户。账单首选项决定了使用费是来自 NetApp 许可证、云市场合同还是 Keystone 协议。
 
 .开始之前
-* 您拥有*管理员*角色权限。
 * 所有相关的市场订阅都与您的组织关联。
 * 您已审核了现有许可证和订阅的配置。
 
+
+*需要控制台角色* 要执行此任务，需要 Licenses and subscriptions 管理员角色link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["了解 NetApp Console 的 Licenses and subscriptions 角色"^]。
 
 
 
@@ -39,10 +40,10 @@ summary: 在NetApp Console中配置计费首选项，以控制许可证、市场
 
 . 在 *Marketplace subscriptions* 下，为每个云提供商（AWS、Azure 和 Google Cloud）选择订阅。
 . 如果在单个云提供商下使用多个订阅，请启用 *自定义 CVO 配置*。
-. （可选）更新*发票联系人*和*通知联系人*。
-. （可选）输入*成本中心标签*，将账单与内部会计代码关联起来。
+. 或者，更新 *Invoice contacts* 和 *Notification contacts*。
+. 或者，输入 *Cost center tag* 以将账单与内部会计代码关联。
 . 选择“保存更改”。
-. 出现提示时，请查看确认对话框并选择“确认”。
+. 出现提示时，请查看确认对话框，然后选择 *确认*。
 
 
 .结果

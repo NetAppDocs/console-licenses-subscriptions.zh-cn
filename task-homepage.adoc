@@ -13,7 +13,7 @@ summary: 在控制台的概览仪表板上获取您组织的所有订阅和许�
 == 使用仪表板概览
 
 [role="lead"]
-Console 中的*概述*仪表板可帮助您监控 licenses and subscriptions 的状态，以确保您可以在订阅到期日期或容量限制时管理成本并维护服务。
+NetApp Console 中的 *Overview* 仪表板可帮助您监控许可证和订阅的状态，以确保您可以在订阅到达到期日期或容量限制时管理成本并维护服务。
 
 您可以查看每个数据服务（包括 Cloud Volumes ONTAP）的特定许可证和订阅信息。
 
@@ -25,11 +25,11 @@ Licenses and subscriptions 仪表板会提醒您即将到来的容量限制或�
 
 *概述*控制面板提供有关以下服务的详细信息：
 
+* 备份和恢复
+* 云层
 * Cloud Volumes ONTAP
 * 灾难恢复
 * 勒索软件抵御能力
-* 备份和恢复
-* 云层
 
 
 例如，负责管理Cloud Volumes ONTAP资源的管理员可以查看每个许可证或订阅的当前容量，从而使他们能够集中查看其权限范围内的资源。
@@ -52,7 +52,7 @@ link:task-manage-data-services-licenses.html["了解有关管理许可证的详�
 . 展开任意行即可查看订阅或许可证包含的内容、购买的容量和条款的详细信息。
 . 使用操作菜单来管理特定的许可证或订阅，例如更新许可证或将订阅与其他组织关联。
 +
-您无法从特定服务的*概览*页面添加新的许可证或订阅。您只能分别从“直接许可证”选项卡或“市场订阅”选项卡添加许可证或订阅。
+您无法从特定服务的 *Overview* 页面添加新的 licenses 或 subscriptions。您只能从 *Direct licenses* 选项卡添加 licenses，或从 *Marketplace subscriptions* 选项卡添加 subscriptions。
 
 +
 link:task-manage-data-services-licenses.html["了解有关管理许可证的更多信息。"] link:task-manage-subscriptions.html["了解有关管理订阅的更多信息。"]
@@ -71,6 +71,8 @@ link:task-manage-data-services-licenses.html["了解有关管理许可证的更�
 . 从“需要操作”页面中，选择“许可证”选项卡或“订阅”选项卡。
 . 使用操作菜单来解决问题。
 +
-link:task-manage-data-services-licenses.html["了解有关管理许可证的详细信息"]。link:task-manage-subscriptions.html["了解有关管理订阅的更多信息"]。
+** link:task-manage-data-services-licenses.html["了解有关管理许可证的详细信息"]。
+** link:task-manage-subscriptions.html["了解有关管理订阅的更多信息"]。
+
 
 

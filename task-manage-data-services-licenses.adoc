@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
 keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, bluexp, netapp console, classification, tiering, backup and recovery, disaster recovery 
-summary: '管理您直接从NetApp (BYOL) 购买的用于NetApp数据服务的许可证。您可以查看已使用的许可证容量、剩余的可用容量，并且如果达到容量限制或到期日期，您将看到通知。' 
+summary: '管理您直接从 NetApp (BYOL) 购买的用于 NetApp 数据服务的许可证。您可以查看已使用的许可证容量、容量使用情况和即将到期的有效期。' 
 ---
 = 管理NetApp数据服务的许可证
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: '管理您直接从NetApp (BYOL) 购买的用于NetApp数据服务的�
 
 
 [role="lead"]
-您可以管理直接从NetApp (BYOL) 购买的许可证，以用于NetApp数据服务，包括Cloud Volumes ONTAP。您可以查看已使用的许可证容量、剩余的可用容量，并且当达到容量限制或到期日期时您会看到通知。
+您可以管理直接从 NetApp (BYOL) 购买的许可证，以便与 NetApp 数据服务（包括 Cloud Volumes ONTAP）配合使用。您可以查看已使用的许可证容量、容量使用情况和即将到期的有效期。
 
 
 NOTE: *直接许可*页面列出了所有许可证。如果您想要特定数据服务的许可证详细信息，请使用*概览*仪表板上的数据服务图块。link:task-homepage.html#overview-page["详细了解概览仪表板"] 。
@@ -28,6 +28,8 @@ NOTE: *直接许可*页面列出了所有许可证。如果您想要特定数据
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html["设置Cloud Volumes ONTAP许可"^]
 
 
+*需要控制台角色* 要执行此任务，需要 Licenses and subscriptions 管理员角色link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["了解 NetApp Console 的 Licenses and subscriptions 角色"^]。
+
 
 
 == 获取许可证文件
@@ -39,7 +41,7 @@ NOTE: *直接许可*页面列出了所有许可证。如果您想要特定数据
 .步骤
 . 查找您的控制台帐户 ID：
 +
-.. 在控制台的右上角，选择image:icon-settings-option.png["显示在 Web 控制台右上角的设置图标。"]> *身份和访问管理*。
+.. 在 Console 的导航菜单中，选择 *Administration* > *Identity and access*。
 .. 在组织页面上，查找您的帐户 ID 并复制它。
 +
 如果没有列出帐户 ID，而您只有组织 ID，请复制组织 ID 的前八个字符并将其附加到 *account-*
@@ -68,7 +70,7 @@ ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
 
 == 添加许可证
 
-当与许可证关联的NetApp Console帐户也是NetApp支持站点帐户并且可以访问互联网时，许可证信息会自动显示在**Licenses and subscriptions**部分。如果您使用的控制台帐户未与您的 NSS 帐户关联，则需要手动添加许可证。
+如果与许可证关联的 NetApp Console 帐户也是 NetApp 支持站点帐户并具有互联网访问权限，则许可证信息会自动显示在 **Licenses and subscriptions** 部分中。如果您使用的 Console 帐户未与 NSS 帐户关联，则需要手动添加许可证。
 
 您可以在控制台中通过输入序列号和关联的 NSS 帐户或上传NetApp许可证文件 (NLF) 来添加许可证。如果控制台无法访问互联网（私人模式安装），您应该获取NetApp许可证文件进行上传。
 
@@ -78,7 +80,8 @@ ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
 NOTE: 要输入序列号，首先 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["将您的NetApp支持站点帐户添加到控制台"^]。这是有权访问序列号的NetApp支持站点帐户。
 
 .步骤
-. 从NetApp Console菜单中，选择“管理 >Licenses and subscriptions”，然后选择“直接许可证”选项卡。
+. 从NetApp Console菜单中，选择“管理 >Licenses and subscriptions”。
+. 选择 *Direct licenses* 选项卡。
 . 选择*添加许可证*。
 . 在*添加许可证*对话框中，输入许可证信息并选择*添加许可证*：
 +
@@ -133,4 +136,9 @@ NOTE: 要输入序列号，首先 https://docs.netapp.com/us-en/console-setup-ad
 
 == 查看许可证状态
 
-未解析指令在 <stdin> - include::task-view-license-status.adoc[]
+要管理许可证，您可以根据服务名称对许可证进行分组。这使您可以查看与特定服务相关的所有许可证。您可以展开一行来查看与该服务相关的每个许可证的详细信息。每个服务的根行显示服务名称和该服务的已用容量。许可证自动按服务名称分组。每个服务的根行显示服务名称和该服务的已用容量。
+
+.步骤
+. 从控制台菜单中，选择“管理”>“Licenses and subscriptions”，然后选择“直接许可证”选项卡。
+. 选择一个服务名称行以展开它。这将显示与该服务相关的所有许可证。每个展开的行都会显示有关许可证的详细信息，包括许可证 ID、序列号、容量和到期日期。
+

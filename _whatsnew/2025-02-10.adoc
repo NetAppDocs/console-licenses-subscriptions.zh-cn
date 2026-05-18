@@ -24,6 +24,6 @@ BlueXP digital wallet现在允许您配置对提供商凭证的订阅。通常�
 
 
 
-=== 管理 Cloud Volume ONTAP许可证
+=== 管理 Cloud Volumes ONTAP 许可证
 
-您现在可以通过主页或“直接许可证”选项卡管理Cloud Volumes ONTAP许可证。使用“市场订阅”选项卡查看您的订阅信息。
+您现在可以通过主页或 *Direct licenses* 选项卡管理 Cloud Volumes ONTAP 许可证。使用 *Marketplace subscriptions* 选项卡可查看您的订阅信息。

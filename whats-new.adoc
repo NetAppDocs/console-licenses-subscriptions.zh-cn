@@ -24,7 +24,7 @@ summary: 了解NetApp Console许可证和订阅的新功能。
 
 === 管理账单偏好设置
 
-现在可以直接在NetApp Console中配置和管理*计费首选项*。这项增强功能使管理员能够定义和查看如何对NetApp直接许可证、云市场订阅和Keystone协议中的容量使用情况、续订和成本进行计费。
+现在，您可以直接在 NetApp Console 中配置和管理*账单偏好设置*了。此增强功能使管理员能够定义和查看如何在直接 NetApp 许可证、云市场订阅和 Keystone 协议中计费容量使用、续订和成本。
 
 欲了解更多信息，请参阅link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["账单偏好文档"^]。
 
@@ -82,9 +82,9 @@ BlueXP digital wallet现在允许您配置对提供商凭证的订阅。通常�
 
 
 
-=== 管理 Cloud Volume ONTAP许可证
+=== 管理 Cloud Volumes ONTAP 许可证
 
-您现在可以通过主页或“直接许可证”选项卡管理Cloud Volumes ONTAP许可证。使用“市场订阅”选项卡查看您的订阅信息。
+您现在可以通过主页或 *Direct licenses* 选项卡管理 Cloud Volumes ONTAP 许可证。使用 *Marketplace subscriptions* 选项卡可查看您的订阅信息。
 
 
 
