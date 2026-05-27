@@ -51,14 +51,14 @@ sidebar:
         url: "/concept-billing-preferences.html"
       - title: 管理账单偏好设置
         url: "/task-manage-billing-preferences.html"
-    - title: 知识和支持
-      entries:
-      - title: 注册以获得支持
-        url: "/task-support-registration.html"
-      - title: 获取帮助
-        url: "/task-get-help.html"
-    - title: 法律声明
-      url: "/legal-notices.html"
+  - title: 知识和支持
+    entries:
+    - title: 注册以获得支持
+      url: "/task-support-registration.html"
+    - title: 获取帮助
+      url: "/task-get-help.html"
+  - title: 法律声明
+    url: "/legal-notices.html"
 product-family:
   name: NetApp Console
   repo: console-family
