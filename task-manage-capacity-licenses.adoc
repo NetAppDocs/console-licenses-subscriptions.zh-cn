@@ -1,19 +1,19 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-capacity-licenses.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
-summary: 从控制台管理基于容量的许可证，以确保您的NetApp帐户具有足够的容量用于您的Cloud Volumes ONTAP系统。 
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet 
+summary: 从NetApp Console管理基于容量的许可证，以确保您的NetApp帐户具有足够的容量用于您的Cloud Volumes ONTAP系统。 
 ---
-= 管理基于容量的 Cloud Volumes ONTAP 许可证
+= 管理 Cloud Volumes ONTAP 的基于容量的许可证
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/media/
+:imagesdir: ./media/
 
 
-[role="lead lead"]
+[role="lead"]
 从NetApp Console管理基于容量的许可证，以确保您的NetApp帐户具有足够的容量用于您的Cloud Volumes ONTAP系统。
 
 _基于容量的许可证_使您能够按 TiB 容量支付Cloud Volumes ONTAP 的费用。
@@ -23,10 +23,11 @@ _基于容量的许可证_使您能够按 TiB 容量支付Cloud Volumes ONTAP �
 
 NOTE: 虽然控制台中管理的产品和服务的实际使用情况和计量始终以 GiB 和 TiB 计算，但 GB/GiB 和 TB/TiB 这两个术语可互换使用。这反映在云市场列表、报价、列表描述和其他支持文档中
 
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["了解有关Cloud Volumes ONTAP许可证的更多信息"] 。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["了解有关Cloud Volumes ONTAP许可证的更多信息"^]。
 
 
 
+[[how-licenses-are-added-to-netapp-console]]
 == 如何将许可证添加到NetApp Console
 
 从NetApp销售代表处购买许可证后， NetApp将向您发送一封电子邮件，其中包含序列号和其他许可详细信息。
@@ -37,6 +38,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[
 
 
 
+[[view-the-consumed-capacity-in-your-account]]
 == 查看您账户中已消耗的容量
 
 控制台显示您帐户中消耗的总容量以及按许可包消耗的容量。这可以帮助您了解收费方式以及是否需要购买额外的容量。
@@ -56,7 +58,7 @@ image:screenshot_cvo_licensing_card.png["width=300 屏幕截图显示了您的Cl
 . 选择“查看”以查看每个许可包所消耗的容量。
 . 选择“*许可证*”选项卡查看您购买的每个包许可证的详细信息。
 +
-为了更好地了解 Essentials 套件所显示的容量，您应该熟悉充电的工作原理。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging["了解 Essentials 套餐的收费"] 。
+为了更好地了解 Essentials 套餐显示的容量，您应该熟悉计费的工作原理 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging["了解 Essentials 套餐的收费"^]。
 
 . 选择“*订阅*”选项卡来查看按许可证消费模式消耗的容量。此选项卡包括 PAYGO 和年度合同许可证。
 +
@@ -71,6 +73,7 @@ image:screenshot_cvo_licensing_card.png["width=300 屏幕截图显示了您的Cl
 
 
 
+[[viewing-package-details]]
 == 查看包裹详情
 
 您可以通过在Cloud Volumes ONTAP页面上切换到传统模式来查看每个包使用的容量的详细信息。
@@ -90,6 +93,7 @@ image:screenshot_licesning_standard_view.png["切换到标准视图按钮的屏�
 
 
 
+[[change-charging-methods]]
 == 改变充电方式
 
 基于容量的许可以_包_的形式提供。创建Cloud Volumes ONTAP系统时，您可以根据业务需求从多个许可包中进行选择。如果您在创建系统后需求发生变化，您可以随时更改套餐。例如，您可以从 Essentials 包更改为 Professional 包。
@@ -122,6 +126,7 @@ image:screenshot-digital-wallet-charging-method-button.png["控制台中Cloud Vo
 
 
 
+[[download-usage-reports]]
 == 下载使用情况报告
 
 您可以从控制台下载四份使用情况报告。这些使用情况报告提供您的订阅的容量详细信息，并告诉您如何为Cloud Volumes ONTAP订阅中的资源付费。可下载的报告捕获某个时间点的数据，并且可以轻松地与他人共享。
@@ -130,52 +135,114 @@ image:screenshot-download-usage-report.png["屏幕截图显示了基于Cloud Vol
 
 以下报告可供下载。显示的容量值以 TiB 为单位。
 
-* *高级用法*：此报告包含以下信息：
+* *高级使用情况*：此报告汇总了您帐户中消耗的总容量，并按计费方式（预先提交的许可证与按需付费）进行细分。其中包含以下信息：
 +
-** 总消耗容量
-** 预先承诺的总容量
-** BYOL 总容量
-** 市场合同总容量
-** PAYGO 总容量
+[cols="1,2"]
+|===
+| 列 | 描述 
 
 
-* * Cloud Volumes ONTAP软件包使用情况*：此报告包含每个软件包的以下信息：
+| 总消耗容量 | 帐户中所有 Cloud Volumes ONTAP 系统的总配置容量。 
+
+
+| 预先承诺的总容量 | 您从 NetApp 购买的总许可容量，包括 BYOL 许可证和 Marketplace 合同。此值为 BYOL 总容量与 Marketplace 合同总容量之和。 
+
+
+| BYOL 总容量 | 直接从 NetApp 购买的自带许可证 (BYOL) 所涵盖的预承诺容量部分。 
+
+
+| 市场合同总容量 | 通过云提供商市场购买的年度市场合同或私人优惠所涵盖的预承诺容量部分。 
+
+
+| PAYGO 总容量 | 任何预先承诺的许可证未涵盖的已消耗容量部分，按即用即付（PAYGO）每小时市场费率计费。 
+|===
+* *Cloud Volumes ONTAP 包使用情况*：此报告提供与高级使用情况报告相同的容量明细，但按许可包组织。其中包含以下信息：
 +
-** 总消耗容量
-** 预先承诺的总容量
-** BYOL 总容量
-** 市场合同总容量
-** PAYGO 总容量
+[cols="1,2"]
+|===
+| 列 | 描述 
 
 
+| 总消耗容量 | 此包在您帐户中的所有 Cloud Volumes ONTAP 系统上配置的总容量。 
+
+
+| 预先承诺的总容量 | 您从 NetApp 购买的此套餐的总许可容量，包括 BYOL 许可证和 Marketplace 合同。此值为 BYOL 总容量与 Marketplace 合同总容量之和。 
+
+
+| BYOL 总容量 | 此软件包的预先承诺容量部分，由您直接从 NetApp 购买的自带许可证（BYOL）所覆盖。 
+
+
+| 市场合同总容量 | 通过云提供商市场购买的年度市场合同或私人优惠所涵盖的此套餐的预承诺容量部分。 
+
+
+| PAYGO 总容量 | 此套餐的已用容量中不受任何预先承诺的许可证保护的部分，按即用即付（PAYGO）每小时市场费率计费。 
+|===
 * *存储虚拟机使用情况*：此报告显示收费容量在Cloud Volumes ONTAP系统和存储虚拟机 (SVM) 之间的分配情况。此信息仅在报告中提供。它包含以下信息：
 +
-** 系统 ID 和名称（显示为 UUID）
-** 云
-** NetApp帐户 ID
-** 系统配置
-** SVM 名称
-** 预配置容量
-** 充电容量汇总
-** 市场计费条款
-** Cloud Volumes ONTAP软件包或功能
-** 收费 SaaS 市场订阅名称
-** 收费 SaaS 市场订阅 ID
-** 工作负载类型
+[cols="1,2"]
+|===
+| 列 | 描述 
 
 
+| 系统 ID 和名称 | Cloud Volumes ONTAP 系统的唯一标识符 (UUID) 和显示名称。 
+
+
+| 云 | 部署系统的云提供商（例如 AWS、Azure 或 Google Cloud）。 
+
+
+| NetApp帐户 ID | 与系统关联的 NetApp 帐户的标识符。 
+
+
+| 系统配置 | 系统的部署配置（例如，单节点或 HA 对）。 
+
+
+| SVM 名称 | Cloud Volumes ONTAP 系统中 Storage Virtual Machine (SVM) 的名称。 
+
+
+| 预配置容量 | 在 SVM 上配置的总容量。 
+
+
+| 充电容量汇总 | 为 SVM 实际计费的容量。每个 SVM 都有最小可计费容量（默认情况下为 4 TiB，但这可能因账户而异）。如果 SVM 的已配置容量等于或低于该最小值，则此值将向上舍入到最小值；否则，它等于已配置的容量。 
+
+
+| 市场计费条款 | 关联平台订阅的账单周期（例如，按小时或按年）。 
+
+
+| Cloud Volumes ONTAP软件包或功能 | 与 SVM 关联的许可包或功能（例如 Essentials 或 Professional）。 
+
+
+| 收费 SaaS 市场订阅名称 | 用于计费的市场订阅的名称。 
+
+
+| 收费 SaaS 市场订阅 ID | 用于计费的平台订阅的唯一标识符。 
+
+
+| 工作负载类型 | 指示 SVM 的卷是*主卷*（读/写卷），主动用于生产数据，还是*辅助卷*（DP 卷），数据保护目标卷，例如用于备份和复制的 SnapMirror 副本。 
+|===
 * *卷使用情况*：此报告显示Cloud Volumes ONTAP系统中如何按卷细分收费容量。控制台中的任何屏幕上均不显示此信息。它包括以下信息：
 +
-** 系统 ID 和名称（显示为 UUID）
-** SVN 名称
-** Volume ID
-** 卷类型
-** 卷配置容量
+[cols="1,2"]
+|===
+| 列 | 描述 
+
+
+| 系统 ID 和名称 | 包含此卷的 Cloud Volumes ONTAP 系统的唯一标识符 (UUID) 和显示名称。 
+
+
+| SVM 名称 | 包含卷的Storage Virtual Machine (SVM)的名称。 
+
+
+| Volume ID | 卷的唯一标识符。 
+
+
+| 卷类型 | 卷的类型（例如，读写或数据保护）。 
+
+
+| 卷配置容量 | 为卷调配的总容量。 
+|===
 +
 
 NOTE: FlexClone卷不包含在此报告中，因为这些类型的卷不会产生费用。
-
-
 
 
 

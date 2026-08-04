@@ -24,6 +24,7 @@ summary: 了解许可证和订阅如何定义NetApp Console如何管理直接许
 
 
 
+[[permissions]]
 == 权限
 
 NetApp Console中的许可证和订阅管理是通过用户角色来控制的。这些角色提供不同的访问级别，启用或限制用户对此功能可执行的特定操作。
@@ -54,6 +55,7 @@ NetApp Console中的许可证和订阅管理是通过用户角色来控制的。
 |===
 
 
+[[billing-preferences]]
 == 账单偏好
 
 计费偏好设置可确保正确应用使用费和续费。正确配置可以减少计费纠纷，并更容易管理结合了NetApp自有容量和市场购买容量的混合许可模式。
@@ -71,12 +73,14 @@ NetApp Console中的许可证和订阅管理是通过用户角色来控制的。
 
 
 
+[[fields]]
 == 字段
 
 计费字段存储有关每个许可证或订阅计费方式的元数据。它们描述了谁需要付费、续费方式以及每项服务所属的账户或成本中心。
 
 
 
+[[marketplace-fields]]
 === 市场领域
 
 市场字段描述源自 AWS、Azure 或 Google Cloud 等云提供商的合同。这些字段定义了 NetApp Console 如何将您的订阅与存储在提供商市场中的账单信息连接起来。它们还控制如何管理续订、区域分配和账单账户。
@@ -88,12 +92,14 @@ NetApp Console中的许可证和订阅管理是通过用户角色来控制的。
 
 
 
+[[direct-license-fields]]
 === 直接许可字段
 
 直接许可字段适用于直接购买的NetApp管理合同，而不是通过云市场购买的合同。它们定义了NetApp如何向您开具发票、费用发送到哪里以及发票上显示的法律实体。这些字段对于使用采购订单或集中式公司账单的组织至关重要。
 
 
 
+[[keystone-fields]]
 === Keystone田
 
 Keystone字段适用于NetApp Keystone订阅协议涵盖的使用情况。它们允许您将按计量服务使用情况与您的Keystone计费配置文件连接起来，使订阅数据与其他基于容量的许可模式保持一致。
@@ -104,12 +110,14 @@ Keystone字段适用于NetApp Keystone订阅协议涵盖的使用情况。它们
 
 
 
+[[billing-options-and-definitions]]
 == 计费选项和定义
 
 计费选项定义了当连接多个计费源时， NetApp Console如何确定使用费用的优先级并应用这些费用。它们控制哪个账户先收费，以及在达到容量限制时如何在NetApp许可证和市场订阅之间切换计费方式。
 
 
 
+[[terms-and-options]]
 === 条款和选项
 
 您可以根据组织的采购策略选择计费模式：
@@ -124,6 +132,7 @@ Keystone字段适用于NetApp Keystone订阅协议涵盖的使用情况。它们
 
 
 
+[[typical-configuration-paths]]
 === 典型配置路径
 
 以下示例说明了不同的计费方式如何与常见情况相对应：

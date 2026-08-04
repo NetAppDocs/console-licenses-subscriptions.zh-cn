@@ -25,6 +25,7 @@ summary: 在NetApp Console中配置计费首选项，以控制许可证、市场
 
 
 
+[[set-billing-preferences]]
 == 设置账单偏好
 
 您可以选择控制台如何将使用费用应用于不同的计费来源。这决定了哪些账户优先收费以及续费方式。
@@ -54,6 +55,7 @@ NOTE: 更改计费模式会重新分配服务费的收取方式。新 Cloud Volu
 
 
 
+[[enable-custom-cloud-volumes-ontap-configuration]]
 == 启用自定义 Cloud Volumes ONTAP 配置
 
 现在，您可以将特定的市场订阅分配给同一云提供商下的单个 Cloud Volumes ONTAP 实例。如果您的组织为不同的业务部门或环境维护不同的计费帐户，请使用此模式。
@@ -73,6 +75,7 @@ WARNING: 启用此功能后，无法从**账单首选项**还原自定义 Cloud 
 
 
 
+[[edit-marketplace-configuration]]
 == 编辑市场配置
 
 您可以编辑市场配置详细信息，将订阅与云项目关联，或更新合同信息。
@@ -98,6 +101,7 @@ TIP: 要将一个订阅映射到多个云项目，请先确保启用*自定义 C
 
 
 
+[[confirm-or-revert-billing-changes]]
 == 确认或撤销账单变更
 
 每次更新账单设置都需要确认，以防止意外更改。

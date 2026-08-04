@@ -10,6 +10,8 @@ summary: 在控制台的概览仪表板上获取您组织的所有订阅和许�
 
 
 
+[[use-the-dashboard-overview]]
+[[overview-page]]
 == 使用仪表板概览
 
 [role="lead"]
@@ -21,6 +23,7 @@ Licenses and subscriptions 仪表板会提醒您即将到来的容量限制或�
 
 
 
+[[view-details-about-a-specific-data-service]]
 === 查看特定数据服务的详细信息
 
 *概述*控制面板提供有关以下服务的详细信息：
@@ -61,6 +64,7 @@ link:task-manage-data-services-licenses.html["了解有关管理许可证的更�
 
 
 
+[[resolve-license-or-subscription-issues]]
 === 解决许可证或订阅问题
 
 在"概述"仪表板中，您可以查看需要解决的许可证和订阅问题。问题包括即将到期或达到容量的许可证和订阅。

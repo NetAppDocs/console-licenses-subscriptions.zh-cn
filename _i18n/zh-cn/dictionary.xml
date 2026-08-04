@@ -214,13 +214,11 @@
   <block id="fbd2684546a6cae5f9a894684eaa9c6a" category="section-title">解决许可证或订阅问题</block>
   <block id="b082a603fd1e4f128d09f1041b260d65" category="list-text">从“需要操作”页面中，选择“许可证”选项卡或“订阅”选项卡。</block>
   <block id="4b394fc77dc85e2d296bba38de906efe" category="list-text">使用操作菜单来解决问题。</block>
-  <block id="1827ef91dcbc868f9c589f010df6effd" category="summary">从控制台管理基于容量的许可证，以确保您的NetApp帐户具有足够的容量用于您的Cloud Volumes ONTAP系统。</block>
   <block id="2eb14dc3edd9fb392b8095df85f2f222" category="paragraph">从NetApp Console管理基于容量的许可证，以确保您的NetApp帐户具有足够的容量用于您的Cloud Volumes ONTAP系统。</block>
   <block id="93ed65a89f306426be7980ddc22595e8" category="paragraph">_基于容量的许可证_使您能够按 TiB 容量支付Cloud Volumes ONTAP 的费用。</block>
   <block id="96a603641f48a14047d20b26a1cfeefa" category="paragraph">您可以从NetApp Console管理基于容量的Cloud Volumes ONTAP许可证。</block>
   <block id="d3c2fb9e07de60e097ad32d8e9ad56eb" category="admonition">虽然控制台中管理的产品和服务的实际使用情况和计量始终以 GiB 和 TiB 计算，但 GB/GiB 和 TB/TiB 这两个术语可互换使用。这反映在云市场列表、报价、列表描述和其他支持文档中</block>
   <block id="8caaaa4afae93c31b741be21eed669cc" category="inline-link">了解有关Cloud Volumes ONTAP许可证的更多信息</block>
-  <block id="25e7b507c919c21847b291c84a88ba36" category="paragraph"><block ref="73e1a6a2075a5d292111b694a644abf3" category="inline-link-rx"></block> 。</block>
   <block id="a5e948b3ddd458b93125330e6dde9f94" category="section-title">如何将许可证添加到NetApp Console</block>
   <block id="792eeb7f686f2ad37b664f6478d40bed" category="paragraph">从NetApp销售代表处购买许可证后， NetApp将向您发送一封电子邮件，其中包含序列号和其他许可详细信息。</block>
   <block id="8948f0f0bc878d55b118339a79ece349" category="paragraph">同时，控制台会自动查询 NetApp 的许可服务，以获取与您的NetApp支持站点帐户相关的许可证的详细信息。如果没有错误，它会添加许可证。</block>
@@ -238,7 +236,6 @@
   <block id="d02d58b5b8770f720f9d912913a80f1a" category="list-text">选择“查看”以查看每个许可包所消耗的容量。</block>
   <block id="a4f95858d82d890dcc9a5123e1f315e6" category="list-text">选择“*许可证*”选项卡查看您购买的每个包许可证的详细信息。</block>
   <block id="d30bc4bd5cee7ac23a1df54311d1f4b3" category="inline-link">了解 Essentials 套餐的收费</block>
-  <block id="b2678f2b003e23f7f5f3a7cd8451a26b" category="paragraph">为了更好地了解 Essentials 套件所显示的容量，您应该熟悉充电的工作原理。<block ref="8d04d0643798fbb69d5260f477ea213c" category="inline-link-rx"></block> 。</block>
   <block id="452cf2122664eef3e8c620ec413c8d43" category="list-text">选择“*订阅*”选项卡来查看按许可证消费模式消耗的容量。此选项卡包括 PAYGO 和年度合同许可证。</block>
   <block id="a6fd7fff8d44ac917f29be623cc64da2" category="paragraph">您只会看到与您当前正在查看的组织相关的订阅。</block>
   <block id="24456dcfa7781b6f3a972b5f11ed0d88" category="list-text">当您查看有关订阅的信息时，您可以与表格中的详细信息进行交互。展开一行可以查看更多详细信息。</block>
@@ -274,15 +271,12 @@
   <block id="fe1db4ddb29c070770259869ba7aa5bb" category="inline-image-macro">屏幕截图显示了基于Cloud Volumes ONTAP容量的许可证页面，并突出显示了使用情况报告按钮。</block>
   <block id="61b0c512c4663de969f8c21e23e50f0e" category="paragraph"><block ref="61b0c512c4663de969f8c21e23e50f0e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d11dcbec58d47bd13de1dcccfbd640ff" category="paragraph">以下报告可供下载。显示的容量值以 TiB 为单位。</block>
-  <block id="a9bcc09a5114887c29b3f365ee72e9e5" category="list-text">*高级用法*：此报告包含以下信息：</block>
   <block id="c596c9291f76a11af1aefc235c262de6" category="list-text">总消耗容量</block>
   <block id="8dd7541d6c4e83402d88448119068a02" category="list-text">预先承诺的总容量</block>
   <block id="b01a146aed01aa8af61e034befc116ce" category="list-text">BYOL 总容量</block>
   <block id="109323142d354af9ccc7eb636b1dcbce" category="list-text">市场合同总容量</block>
   <block id="baf09c6c43fd26effd8f15e252649384" category="list-text">PAYGO 总容量</block>
-  <block id="219fa750a13ad456df1d25524d9f6ad9" category="list-text">* Cloud Volumes ONTAP软件包使用情况*：此报告包含每个软件包的以下信息：</block>
   <block id="a65d4ec7ff2941ad2ea2bc688a6dbbb3" category="list-text">*存储虚拟机使用情况*：此报告显示收费容量在Cloud Volumes ONTAP系统和存储虚拟机 (SVM) 之间的分配情况。此信息仅在报告中提供。它包含以下信息：</block>
-  <block id="16f96639acdb5e88fcbe97e6d8720ba6" category="list-text">系统 ID 和名称（显示为 UUID）</block>
   <block id="c8e2277ecfb1427838c488c217f99466" category="list-text">云</block>
   <block id="4736cd35bf5b3fe63e1b1785fb2aa664" category="list-text">NetApp帐户 ID</block>
   <block id="3c4e32d95f12c00d16a76057a7af18f6" category="list-text">系统配置</block>
@@ -295,7 +289,6 @@
   <block id="fe6ac599d13d94a0ee0800482bec7e41" category="list-text">收费 SaaS 市场订阅 ID</block>
   <block id="427af860f9733f0c5427a1408195bb2b" category="list-text">工作负载类型</block>
   <block id="2d0394437aca88cac134fb1bce72e08f" category="list-text">*卷使用情况*：此报告显示Cloud Volumes ONTAP系统中如何按卷细分收费容量。控制台中的任何屏幕上均不显示此信息。它包括以下信息：</block>
-  <block id="3edb9123c69629ec86469d96d3feb0aa" category="list-text">SVN 名称</block>
   <block id="cccc95b62282240886ee975a3f122adb" category="list-text">Volume ID</block>
   <block id="fc18634852d4299cd5f8c7ad55ddefbe" category="list-text">卷类型</block>
   <block id="3756f66a273f440893f16ee968ce3450" category="list-text">卷配置容量</block>
@@ -345,8 +338,6 @@
   <block id="e29343f0ee1c0051a367e02b49c1c5ff" category="paragraph">如果您不再想将Keystone订阅与控制台一起使用，您可以取消订阅链接。请注意，您只能取消链接未附加到现有Cloud Volumes ONTAP订阅的订阅。</block>
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">选择* Keystone*。</block>
   <block id="0e1096776546966fb22c4752766d55a9" category="paragraph">该订阅已与您的控制台组织或帐户取消链接，并且在创建Cloud Volumes ONTAP工作环境时不再可供选择。</block>
-  <block id="84d46f62b819e413ba1572fee9e31acc" category="summary">在控制台中管理基于节点的许可证，以确保每个Cloud Volumes ONTAP系统都具有所需容量的有效许可证。</block>
-  <block id="de94398a333e3b7bdafad2ddf3232331" category="doc">管理基于节点的许可证</block>
   <block id="63e5ea33dc9b9a10458ac73abae91075" category="paragraph">在NetApp Console中管理基于节点的许可证，以确保每个Cloud Volumes ONTAP系统都具有所需容量的有效许可证。</block>
   <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">_基于节点的许可证_是上一代许可模型（不适用于新客户）：</block>
   <block id="0d4e36aae457a1001b3373de2fd510f1" category="list-text">从NetApp购买自带许可证 (BYOL)</block>
@@ -424,7 +415,6 @@
   <block id="882d5f98206dd8157654127073c920f2" category="paragraph"><block ref="882d5f98206dd8157654127073c920f2" category="inline-link-rx"></block></block>
   <block id="ebf88a96d90d43fcac8c0ab5a9fda0dd" category="list-text">通过删除原始系统来终止不再需要的Cloud Volumes ONTAP系统。</block>
   <block id="f979ec1d84a4416797fae20cc61f839b" category="inline-link">了解如何删除Cloud Volumes ONTAP系统</block>
-  <block id="0d0947c9b1ebe3ee650df057f8192855" category="paragraph"><block ref="87175a08736eca79154ad91c69792fcd" category="inline-link-rx"></block> 。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="paragraph-title">相关链接</block>
   <block id="90df487d076cd9295a7192268b4439ee" category="inline-link-macro">基于节点的许可证的可用性终止</block>
   <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link-macro">将基于节点的许可证转换为基于容量的许可证</block>
@@ -964,7 +954,6 @@
   <block id="57f2b91dd5d64f1e869c7510450457ba" category="list-text">或者，更新 *Invoice contacts* 和 *Notification contacts*。</block>
   <block id="c574b540cd92e579d0adb2549eb5e6ad" category="list-text">或者，输入 *Cost center tag* 以将账单与内部会计代码关联。</block>
   <block id="d1aa6173b8b0f269bcc23f11e54d8e9f" category="list-text">出现提示时，请查看确认对话框，然后选择 *确认*。</block>
-  <block id="cd8b0613e16e6b474b0e97a2db9c08ee" category="doc">管理基于容量的 Cloud Volumes ONTAP 许可证</block>
   <block id="7a65ea1273f42ee6be596842e800d703" category="summary">管理您直接从 NetApp (BYOL) 购买的用于 NetApp 数据服务的许可证。您可以查看已使用的许可证容量、容量使用情况和即将到期的有效期。</block>
   <block id="bdcdbfa9e9107af10507b1ac43ba121f" category="paragraph">您可以管理直接从 NetApp (BYOL) 购买的许可证，以便与 NetApp 数据服务（包括 Cloud Volumes ONTAP）配合使用。您可以查看已使用的许可证容量、容量使用情况和即将到期的有效期。</block>
   <block id="891135e9b9da3df96fe5c02cfac5295d" category="list-text"><block ref="891135e9b9da3df96fe5c02cfac5295d" category="inline-link-rx"></block></block>
@@ -983,4 +972,41 @@
   <block id="9475bf1acf4a7e43280f6718d685e866" category="list-text">您只能删除状态为 *已取消订阅* 的订阅。移除前必须清除或重置所有相关设置、数据和配置。</block>
   <block id="c4a1705a6991448825c6ef6ad86fa41a" category="paragraph">如果订阅仍在配置中，则 *Remove* 选项不可用。</block>
   <block id="792b1ad41ebb8947d008af5826897289" category="list-text">在*删除订阅*对话框中，选择*删除*以确认要删除此订阅。</block>
+  <block id="05fef605ad17853dff22052e9ab0016f" category="doc">管理 Cloud Volumes ONTAP 的基于容量的许可证</block>
+  <block id="5a4b99b6fc841017a0f50698712eacbd" category="paragraph"><block ref="13c3a734f25ff867542070e2d18cd1d4" category="inline-link-rx"></block>。</block>
+  <block id="cab4333b3833fa9cdc6796a75eee578b" category="paragraph">为了更好地了解 Essentials 套餐显示的容量，您应该熟悉计费的工作原理<block ref="02565e6913727744dad1b0044ad87804" category="inline-link-rx"></block>。</block>
+  <block id="821a4394ac44729da9f70ce04118fc86" category="list-text">*高级使用情况*：此报告汇总了您帐户中消耗的总容量，并按计费方式（预先提交的许可证与按需付费）进行细分。其中包含以下信息：</block>
+  <block id="1976d7f704de389d9fe064e08ea35b2d" category="cell">列</block>
+  <block id="51163c1c09d1460ef27f5dd97ed9ea7f" category="cell">帐户中所有 Cloud Volumes ONTAP 系统的总配置容量。</block>
+  <block id="f70b0a4d5f326e83950dad59aec6fa68" category="cell">您从 NetApp 购买的总许可容量，包括 BYOL 许可证和 Marketplace 合同。此值为 BYOL 总容量与 Marketplace 合同总容量之和。</block>
+  <block id="461f8f7091d5494362a76c93edc9a423" category="cell">直接从 NetApp 购买的自带许可证 (BYOL) 所涵盖的预承诺容量部分。</block>
+  <block id="78848eca2f87ad4a3c7b9b07889aae3a" category="cell">通过云提供商市场购买的年度市场合同或私人优惠所涵盖的预承诺容量部分。</block>
+  <block id="f343ac0562a9bcbf4a1f16afb4d9c944" category="cell">任何预先承诺的许可证未涵盖的已消耗容量部分，按即用即付（PAYGO）每小时市场费率计费。</block>
+  <block id="de061f005aa315f137edfbea4185d9cf" category="list-text">*Cloud Volumes ONTAP 包使用情况*：此报告提供与高级使用情况报告相同的容量明细，但按许可包组织。其中包含以下信息：</block>
+  <block id="0f8a95f201dfe022d77e0b59d46d4c77" category="cell">此包在您帐户中的所有 Cloud Volumes ONTAP 系统上配置的总容量。</block>
+  <block id="ba7a4b5109f3d946e68653e9dca24924" category="cell">您从 NetApp 购买的此套餐的总许可容量，包括 BYOL 许可证和 Marketplace 合同。此值为 BYOL 总容量与 Marketplace 合同总容量之和。</block>
+  <block id="da684f1b634af2847a1baa8db1db2ac7" category="cell">此软件包的预先承诺容量部分，由您直接从 NetApp 购买的自带许可证（BYOL）所覆盖。</block>
+  <block id="fa6bbae52be77ec691f2ed981782a8c3" category="cell">通过云提供商市场购买的年度市场合同或私人优惠所涵盖的此套餐的预承诺容量部分。</block>
+  <block id="7978965a49086eecb3f75ef44abb3cbe" category="cell">此套餐的已用容量中不受任何预先承诺的许可证保护的部分，按即用即付（PAYGO）每小时市场费率计费。</block>
+  <block id="40052c32370d83faceb0cb6dc62c2d53" category="cell">系统 ID 和名称</block>
+  <block id="d618d6f2db44ccd4eb860a4f494fc02b" category="cell">Cloud Volumes ONTAP 系统的唯一标识符 (UUID) 和显示名称。</block>
+  <block id="f36be790a1c0b2db000cad5e1f143392" category="cell">部署系统的云提供商（例如 AWS、Azure 或 Google Cloud）。</block>
+  <block id="63af7f48ddc938f8833d32b0716868d6" category="cell">与系统关联的 NetApp 帐户的标识符。</block>
+  <block id="ad5c67cce7e6fab8ce505f2ae3c2df11" category="cell">系统的部署配置（例如，单节点或 HA 对）。</block>
+  <block id="3355bd383b4614928e6109a99305d004" category="cell">Cloud Volumes ONTAP 系统中 Storage Virtual Machine (SVM) 的名称。</block>
+  <block id="c5f488f842043ae15f7cfa0e8b69385b" category="cell">在 SVM 上配置的总容量。</block>
+  <block id="f8ae5e430a4359a104373b4d18d6f868" category="cell">为 SVM 实际计费的容量。每个 SVM 都有最小可计费容量（默认情况下为 4 TiB，但这可能因账户而异）。如果 SVM 的已配置容量等于或低于该最小值，则此值将向上舍入到最小值；否则，它等于已配置的容量。</block>
+  <block id="4226ed0668452ac09bb7af302a7c9242" category="cell">关联平台订阅的账单周期（例如，按小时或按年）。</block>
+  <block id="ab31194e65fa04061f03e7c38298214e" category="cell">与 SVM 关联的许可包或功能（例如 Essentials 或 Professional）。</block>
+  <block id="aab205b2459de7a7ecd46aff12fc336e" category="cell">用于计费的市场订阅的名称。</block>
+  <block id="2c13015a3d1386955dffbbcbd1c49ce2" category="cell">用于计费的平台订阅的唯一标识符。</block>
+  <block id="e16dc33bf75ec44279b2f544d4b7a250" category="cell">指示 SVM 的卷是*主卷*（读/写卷），主动用于生产数据，还是*辅助卷*（DP 卷），数据保护目标卷，例如用于备份和复制的 SnapMirror 副本。</block>
+  <block id="de39b41004ed04a88578e2985a04fc6c" category="cell">包含此卷的 Cloud Volumes ONTAP 系统的唯一标识符 (UUID) 和显示名称。</block>
+  <block id="0d8e21203d5a81d1fa5620283cbeb8d9" category="cell">包含卷的Storage Virtual Machine (SVM)的名称。</block>
+  <block id="e7a38d895cb4f8d8f3a338217e14a339" category="cell">卷的唯一标识符。</block>
+  <block id="7860112ba253041aab5726c5a5f6777c" category="cell">卷的类型（例如，读写或数据保护）。</block>
+  <block id="b41f9ba0b51c7f3d54a31c655a83017f" category="cell">为卷调配的总容量。</block>
+  <block id="6e1a9790b199742bec95dea2070e2f3f" category="summary">在 NetApp Console 中管理基于节点的许可证，以确保每个 Cloud Volumes ONTAP 系统都具有所需容量的有效许可证。</block>
+  <block id="160221c1e99e53b72af8a65c2440852b" category="doc">管理 Cloud Volumes ONTAP 的基于节点的许可证</block>
+  <block id="ffc60ab0361bc3c2ef3b3728cce5a231" category="paragraph"><block ref="ac0e83bff3dad475c8103a64904a607a" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -18,6 +18,7 @@ summary: 通过许可证和订阅，您可以管理和监控NetApp Console许可
 
 
 
+[[how-licenses-and-subscriptions-display-in-the-console]]
 == 许可证和订阅如何在控制台中显示
 
 当您的控制台帐户也与NetApp支持站点 (NSS) 帐户关联时，许可证和订阅信息会自动显示在控制台中。如果您的控制台帐户未与 NSS 帐户关联，则需要手动添加许可证。手动添加许可证时，使用情况、容量和其他详细信息不会自动更新。
@@ -27,12 +28,14 @@ NOTE: 您需要部署控制台代理来查看订阅信息。还需要代理来�
 
 
 
+[[automatic-license-discovery]]
 === 自动许可证发现
 
 控制台会自动查询NetApp许可服务以获取与您的NetApp支持站点帐户相关的许可证详细信息。查询成功后，控制台会自动添加许可证。
 
 
 
+[[manual-license-addition]]
 === 手动添加许可证
 
 如果控制台无法自动添加许可证，则需要手动添加。当您的控制台帐户未与您的NetApp支持站点帐户关联时，就会发生这种情况。
@@ -43,6 +46,7 @@ https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[
 
 
 
+[[supported-services]]
 == 支持的服务
 
 您可以在控制台中管理以下服务的许可证和订阅：

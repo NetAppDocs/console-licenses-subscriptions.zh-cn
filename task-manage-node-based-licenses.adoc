@@ -1,19 +1,20 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-node-based-licenses.html 
-keywords: license, licensing, install, updating license, system license, add system license, adding a system license, byol license, add byol license, update byol license, nlf, license generator, digital wallet, bluexp digital wallet 
-summary: 在控制台中管理基于节点的许可证，以确保每个Cloud Volumes ONTAP系统都具有所需容量的有效许可证。 
+keywords: license, licensing, install, updating license, system license, add system license, adding a system license,  update byol license, nlf, license generator, extra, by-node, NetApp Console, cloud backup, cloud data sense, cloud tiering 
+summary: 在 NetApp Console 中管理基于节点的许可证，以确保每个 Cloud Volumes ONTAP 系统都具有所需容量的有效许可证。 
 ---
-= 管理基于节点的许可证
+= 管理 Cloud Volumes ONTAP 的基于节点的许可证
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/media/
+:imagesdir: ./media/
+:target: _blank
 
 
-[role="lead lead"]
+[role="lead"]
 在NetApp Console中管理基于节点的许可证，以确保每个Cloud Volumes ONTAP系统都具有所需容量的有效许可证。
 
 _基于节点的许可证_是上一代许可模型（不适用于新客户）：
@@ -24,10 +25,11 @@ _基于节点的许可证_是上一代许可模型（不适用于新客户）：
 
 您可以从NetApp Console管理基于节点的Cloud Volumes ONTAP许可证。
 
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["了解有关Cloud Volumes ONTAP许可证的更多信息"] 。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["了解有关Cloud Volumes ONTAP许可证的更多信息"^]。
 
 
 
+[[manage-paygo-licenses]]
 == 管理 PAYGO 许可证
 
 Licenses and subscriptions菜单，您可以查看有关每个 PAYGO Cloud Volumes ONTAP系统的详细信息，包括序列号和 PAYGO 许可证类型。
@@ -47,6 +49,7 @@ image:screenshot_paygo_licenses.png["屏幕截图显示了Licenses and subscript
 
 
 
+[[manage-byol-licenses]]
 == 管理 BYOL 许可证
 
 通过添加和删除系统许可证和额外容量许可证来管理您直接从NetApp购买的许可证。
@@ -56,6 +59,7 @@ NOTE: 已限制 BYOL 许可证的购买、延期和续订。有关更多信息�
 
 
 
+[[add-unassigned-licenses]]
 === 添加未分配的许可证
 
 将基于节点的许可证添加到控制台，以便您在创建新的Cloud Volumes ONTAP系统时可以选择该许可证。控制台将这些许可证标识为_未分配_。
@@ -79,6 +83,7 @@ NOTE: 已限制 BYOL 许可证的购买、延期和续订。有关更多信息�
 
 
 
+[[exchange-unassigned-node-based-licenses]]
 === 交换未分配的基于节点的许可证
 
 如果您有未分配的基于节点的Cloud Volumes ONTAP许可证且尚未使用，则可以将其转换为NetApp Backup and Recovery许可证、 NetApp Data Classification许可证或NetApp Cloud Tiering许可证来交换该许可证。
@@ -113,6 +118,7 @@ image:screenshot-exchange-license.png["未分配许可证页面上显示的 Exch
 
 
 
+[[obtain-a-system-license-file]]
 === 获取系统许可证文件
 
 在大多数情况下，控制台可以使用您的NetApp支持站点帐户自动获取您的许可证文件。但如果不能，那么您将需要手动上传许可证文件。如果您没有许可证文件，您可以从 netapp.com 获取。
@@ -131,6 +137,7 @@ image:screenshot-license-generator.png["屏幕截图：显示包含可用产品�
 
 
 
+[[update-a-system-license]]
 === 更新系统许可证
 
 当您通过联系NetApp代表续订 BYOL 订阅时，控制台会自动从NetApp获取新许可证并将其安装在Cloud Volumes ONTAP系统上。如果控制台无法通过安全的互联网连接访问许可证文件，您可以自行获取该文件，然后手动上传该文件。
@@ -151,6 +158,7 @@ image:screenshot-license-generator.png["屏幕截图：显示包含可用产品�
 
 
 
+[[manage-extra-capacity-licenses]]
 === 管理额外容量许可证
 
 您可以为Cloud Volumes ONTAP BYOL 系统购买额外的容量许可证，以分配超过 BYOL 系统许可证提供的 368 TiB 的容量。例如，您可以购买一个额外的许可证容量，为Cloud Volumes ONTAP分配最多 736 TiB 的容量。或者您可以购买三个额外的容量许可证以获得高达 1.4 PiB。
@@ -209,6 +217,7 @@ image:screenshot-license-generator.png["屏幕截图：显示包含可用产品�
 
 
 
+[[change-between-paygo-and-byol]]
 == PAYGO 和 BYOL 之间的变化
 
 不支持将系统从 PAYGO 按节点许可转换为 BYOL 按节点许可（反之亦然）。如果您想在按使用量付费订阅和 BYOL 订阅之间切换，那么您需要部署一个新系统并将数据从现有系统复制到新系统。
@@ -221,7 +230,7 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["了
 
 . 通过删除原始系统来终止不再需要的Cloud Volumes ONTAP系统。
 +
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deleting-system.html["了解如何删除Cloud Volumes ONTAP系统"] 。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deleting-system.html["了解如何删除Cloud Volumes ONTAP系统"^]。
 
 
 

@@ -29,12 +29,14 @@ summary: Licenses and subscriptions 使您能够管理和监控 NetApp Console �
 
 
 
+[[permissions]]
 == 权限
 
 您需要 *Account Admin* 或 *Billing Admin* 角色才能更改账单偏好设置。操作员可以查看偏好设置，但不能修改它们。
 
 
 
+[[set-billing-preferences]]
 == 设置账单偏好
 
 账单偏好设置让您可以：
@@ -47,10 +49,12 @@ summary: Licenses and subscriptions 使您能够管理和监控 NetApp Console �
 
 
 
+[[billing-fields]]
 == 账单字段
 
 
 
+[[marketplace-fields]]
 == 市场领域
 
 * *Marketplace provider* — AWS、Azure 或 Google Cloud。
@@ -60,10 +64,12 @@ summary: Licenses and subscriptions 使您能够管理和监控 NetApp Console �
 
 
 
+[[billing-options-and-definitions]]
 == 计费选项和定义
 
 
 
+[[terms-and-options]]
 == 条款和选项
 
 * **NetApp 许可证优先** — 根据有效 NetApp 许可证开具账单。额外的使用转移到市场。
@@ -79,6 +85,7 @@ summary: Licenses and subscriptions 使您能够管理和监控 NetApp Console �
 
 
 
+[[typical-configuration-paths]]
 == 典型配置路径
 
 |===

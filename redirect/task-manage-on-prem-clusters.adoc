@@ -25,6 +25,7 @@ summary: 查看每个本地 ONTAP 集群的合同详细信息。
 
 
 
+[[view-cluster-information-and-contract-details]]
 == 查看集群信息和合约详情
 
 查看本地ONTAP集群的硬件和软件合同的状态，以便在合同到期之前进行续订。
@@ -44,6 +45,7 @@ summary: 查看每个本地 ONTAP 集群的合同详细信息。
 
 
 
+[[discover-clusters]]
 == 发现集群
 
 如果您尚未发现本地ONTAP集群作为系统，则可以从控制台进行发现。发现之后，集群即可作为一个系统使用，以便您对其进行管理。

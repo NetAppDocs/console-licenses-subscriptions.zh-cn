@@ -4,6 +4,7 @@
 
 
 
+[[manage-billing-preferences]]
 === 管理账单偏好设置
 
 现在，您可以直接在 NetApp Console 中配置和管理*账单偏好设置*了。此增强功能使管理员能够定义和查看如何在直接 NetApp 许可证、云市场订阅和 Keystone 协议中计费容量使用、续订和成本。

@@ -32,6 +32,7 @@ NOTE: *直接许可*页面列出了所有许可证。如果您想要特定数据
 
 
 
+[[obtain-a-license-file]]
 == 获取许可证文件
 
 如果控制台无法访问互联网（私人模式安装），您应该获取NetApp许可证文件进行上传。
@@ -68,6 +69,7 @@ ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
 
 
 
+[[add-a-license]]
 == 添加许可证
 
 如果与许可证关联的 NetApp Console 帐户也是 NetApp 支持站点帐户并具有互联网访问权限，则许可证信息会自动显示在 **Licenses and subscriptions** 部分中。如果您使用的 Console 帐户未与 NSS 帐户关联，则需要手动添加许可证。
@@ -99,6 +101,7 @@ NOTE: 要输入序列号，首先 https://docs.netapp.com/us-en/console-setup-ad
 
 
 
+[[update-a-license]]
 == 更新许可证
 
 当您的许可期限即将到期或许可容量接近限制时，控制台会通知您。在许可证到期之前进行更新，以避免NetApp数据服务或Cloud Volumes ONTAP中断。
@@ -134,6 +137,7 @@ NOTE: 要输入序列号，首先 https://docs.netapp.com/us-en/console-setup-ad
 
 
 
+[[view-license-status]]
 == 查看许可证状态
 
 要管理许可证，您可以根据服务名称对许可证进行分组。这使您可以查看与特定服务相关的所有许可证。您可以展开一行来查看与该服务相关的每个许可证的详细信息。每个服务的根行显示服务名称和该服务的已用容量。许可证自动按服务名称分组。每个服务的根行显示服务名称和该服务的已用容量。
