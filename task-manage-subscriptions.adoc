@@ -32,6 +32,9 @@ NOTE: *市场订阅*页面列出了所有许可证。有关特定数据服务的
 
 您可以直接从控制台订阅市场订阅。
 
+
+NOTE: 对于 AWS，您的帐户可能有多个可用的 NetApp 市场订阅。如果仅关联独立的 Cloud Volumes ONTAP 订阅，则可以使用 Essentials 部署 Cloud Volumes ONTAP，但配置 Backup and Recovery 需要不同的订阅。要选择哪个订阅用于 Cloud Volumes ONTAP 容量计费（包括更改现有系统的计费），请转到 *Administration > Licenses and subscriptions > Billing preferences*。
+
 .步骤
 . 从NetApp Console菜单中，选择“管理 >Licenses and subscriptions”。
 . 选择*市场订阅*。

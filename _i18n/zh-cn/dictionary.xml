@@ -742,7 +742,6 @@
   <block id="a4ca5edd20d0b5d502ebece575681f58" category="section-title">字段</block>
   <block id="e662217eb22f6b7b966f1ed07411a3dd" category="paragraph">计费字段存储有关每个许可证或订阅计费方式的元数据。它们描述了谁需要付费、续费方式以及每项服务所属的账户或成本中心。</block>
   <block id="5ea0317322a30367980e8c9bc0ba1526" category="section-title">市场领域</block>
-  <block id="1ec20092f022395f6a3fb48cc89d2712" category="list-text">*市场提供商* — 标识处理计费的云平台。服务提供商决定支持的功能、合同类型和续约规则。例如，AWS Marketplace 订阅采用基于账户的计费方式，而 Azure 可能同时支持基于账户和基于租户的计费模式。</block>
   <block id="76a83c6a538f170af8f3199778ab5d20" category="list-text">*账单账户或订阅 ID* — 指定用于处理费用的账户的唯一标识符。这样可以确保使用数据计入正确的云计费方案。</block>
   <block id="40edb4d9db39c885c8f287955a205dd9" category="list-text">*合同期限* — 定义订阅期限和续订设置。</block>
   <block id="3e23b3a3660269002b39b5f96e0ca69d" category="section-title">直接许可字段</block>
@@ -1009,4 +1008,18 @@
   <block id="6e1a9790b199742bec95dea2070e2f3f" category="summary">在 NetApp Console 中管理基于节点的许可证，以确保每个 Cloud Volumes ONTAP 系统都具有所需容量的有效许可证。</block>
   <block id="160221c1e99e53b72af8a65c2440852b" category="doc">管理 Cloud Volumes ONTAP 的基于节点的许可证</block>
   <block id="ffc60ab0361bc3c2ef3b3728cce5a231" category="paragraph"><block ref="ac0e83bff3dad475c8103a64904a607a" category="inline-link-rx"></block>。</block>
+  <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="section-title">AWS 中 Cloud Volumes ONTAP 和数据服务的灵活计费</block>
+  <block id="3d44d36eec8c18ebcfe6e7df6a18f232" category="inline-link-macro">Cloud Volumes ONTAP 发行说明</block>
+  <block id="1248d5014ab39f00f176398e4dc459dd" category="paragraph">在 AWS 中，Cloud Volumes ONTAP 容量和 NetApp 数据服务可以通过不同的 AWS 市场订阅收费。有关 AWS 企业折扣计划 (EDP) 更改和建议的详细信息，请参见 <block ref="c708501d41f6c7c2b393d4e8c20c8b78" category="inline-link-macro-rx"></block>。</block>
+  <block id="55d4964721d8399c5c67100bdaa60f41" category="paragraph">如果您的 AWS 账户同时提供独立的 Cloud Volumes ONTAP 订阅和 NetApp Intelligent Services (NIS) 订阅，您可以使用*计费首选项*选择将哪个订阅用于 Cloud Volumes ONTAP 容量计费。</block>
+  <block id="5d31e1e7f8f8f7f232818d9271eaa736" category="admonition">计费行为取决于您是否已有通过 NIS 运行和计费的现有 Cloud Volumes ONTAP 系统，或者您是在添加独立 Cloud Volumes ONTAP 订阅后部署新系统。对于现有系统，除非您更新 *Billing preferences*，否则添加独立订阅不会更改计费。对于在独立订阅可用后创建的新部署，独立订阅默认用于 Cloud Volumes ONTAP 容量计费（Essentials/Freemium），除非您在 *Billing preferences* 中覆盖此设置。</block>
+  <block id="e6d41b6ffe1a3ac4ac6f49198a9d0e97" category="list-text">独立 Cloud Volumes ONTAP 订阅（推荐）：Cloud Volumes ONTAP 容量（Essentials/Freemium）</block>
+  <block id="4b7bf84649d39c27ca19dff9239bed8b" category="list-text">NetApp 智能服务 (NIS) 订阅：NetApp 数据服务（和 Cloud Volumes ONTAP Professional）</block>
+  <block id="d7d1942005392b35e5cbe164e61598f5" category="paragraph">独立的 Cloud Volumes ONTAP 订阅仅支持基于容量的 Essentials 和 Freemium 套餐。不支持 Professional 套餐，继续通过 NIS 收费。如果仅关联了独立订阅，则可以使用 Essentials 部署 Cloud Volumes ONTAP，但配置 Backup and Recovery 需要其他订阅。</block>
+  <block id="eb93ecbd8fdefaf3fdba89c22f5eb489" category="section-title">配置位置</block>
+  <block id="79422b968987cdd0a06fc1bfb81eff7e" category="paragraph">您可以在 *管理 &gt; Licenses and subscriptions &gt; Marketplace subscriptions* 下关联 AWS Marketplace 订阅，并在 *管理 &gt; Licenses and subscriptions &gt; Billing preferences* 下选择用于 Cloud Volumes ONTAP 容量计费的 Marketplace 订阅。您可以使用 Cloud Volumes ONTAP 使用情况报告验证收费详细信息。</block>
+  <block id="2aef8c7aa3736a735e2c270ba5fba388" category="admonition">当您使用多种订阅类型或在房源之间迁移时，不会出现重复的计量。</block>
+  <block id="24c5718a7b37767099a36f2e0a1ef086" category="list-text">*Marketplace provider* — 标识处理账单的云平台。提供商确定支持的功能、合同类型和续订规则。例如，AWS Marketplace 订阅使用基于帐户的计费，而 Azure 可能同时支持基于帐户和租户的模型。</block>
+  <block id="dbf314f960a580dec77c3328f5a7dcfe" category="list-text">如果您计划通过 AWS 市场中的独立 Cloud Volumes ONTAP 订阅收取 Cloud Volumes ONTAP 容量费用，Cloud Volumes ONTAP 系统必须使用受支持的基于容量的套餐（Essentials 或 Freemium）。独立列表不支持 Professional 套餐，并继续通过 NIS 订阅收费。选择所需套餐后，使用 NetApp Console 中的*账单首选项*选择用于 Cloud Volumes ONTAP 账单的市场订阅。</block>
+  <block id="3919d4b9a6b0d4b602f5cdf529c0ed29" category="admonition">对于 AWS，您的帐户可能有多个可用的 NetApp 市场订阅。如果仅关联独立的 Cloud Volumes ONTAP 订阅，则可以使用 Essentials 部署 Cloud Volumes ONTAP，但配置 Backup and Recovery 需要不同的订阅。要选择哪个订阅用于 Cloud Volumes ONTAP 容量计费（包括更改现有系统的计费），请转到 *Administration &gt; Licenses and subscriptions &gt; Billing preferences*。</block>
 </blocks>
