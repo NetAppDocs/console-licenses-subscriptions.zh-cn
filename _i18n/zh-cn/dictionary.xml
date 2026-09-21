@@ -85,7 +85,6 @@
   <block id="095a6074d8cac073313583b5aec86563" category="paragraph">您可以在 NetAppNetApp Console中管理和监控从NetApp购买的许可证 (BYOL)、 NetApp数据服务 (包括Cloud Volumes ONTAP) 的市场订阅以及NetApp Keystone订阅。</block>
   <block id="a555aeea3ec67a6c83d73b1bfdefb4ab" category="section-title">许可证和订阅如何在控制台中显示</block>
   <block id="de7d3dd9b9cde1be1ad6f0d2b933e1a2" category="paragraph">当您的控制台帐户也与NetApp支持站点 (NSS) 帐户关联时，许可证和订阅信息会自动显示在控制台中。如果您的控制台帐户未与 NSS 帐户关联，则需要手动添加许可证。手动添加许可证时，使用情况、容量和其他详细信息不会自动更新。</block>
-  <block id="0ce8098d87732b7ddaff9494e1959f72" category="admonition">您需要部署控制台代理来查看订阅信息。还需要代理来查看Cloud Volumes ONTAP 的节点许可证。</block>
   <block id="92d0f4057dd78c03677b13a3df9a24f0" category="section-title">自动许可证发现</block>
   <block id="d4c8d0b101189503f6888a4d0e84fec5" category="paragraph">控制台会自动查询NetApp许可服务以获取与您的NetApp支持站点帐户相关的许可证详细信息。查询成功后，控制台会自动添加许可证。</block>
   <block id="6fc732417eef67838e6035198387d225" category="section-title">手动添加许可证</block>
@@ -241,7 +240,6 @@
   <block id="24456dcfa7781b6f3a972b5f11ed0d88" category="list-text">当您查看有关订阅的信息时，您可以与表格中的详细信息进行交互。展开一行可以查看更多详细信息。</block>
   <block id="56594b7222b35921f9fe676eadf6bbdf" category="inline-image-macro">表头末尾的加号图标</block>
   <block id="2eab7ff26639a8d2e45cece515ff781f" category="list-text">选择<block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block>选择表中显示的列。请注意，“期限”和“自动续订”列默认不会出现。自动续订列仅显示 Azure 合同的续订信息。</block>
-  <block id="8ac1ecc7ceb7a49d071b4f1b71f0e176" category="section-title">查看包裹详情</block>
   <block id="f88e8fee4b6b78cbc9779b73098653b5" category="paragraph">您可以通过在Cloud Volumes ONTAP页面上切换到传统模式来查看每个包使用的容量的详细信息。</block>
   <block id="4a95292c803539c8cf72591c54db0644" category="list-text">选择“查看”以查看每个许可包的配置容量。</block>
   <block id="40d1f3228e91a00383279859612f7ba5" category="list-text">选择*切换到高级视图*。</block>
@@ -338,39 +336,21 @@
   <block id="e29343f0ee1c0051a367e02b49c1c5ff" category="paragraph">如果您不再想将Keystone订阅与控制台一起使用，您可以取消订阅链接。请注意，您只能取消链接未附加到现有Cloud Volumes ONTAP订阅的订阅。</block>
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">选择* Keystone*。</block>
   <block id="0e1096776546966fb22c4752766d55a9" category="paragraph">该订阅已与您的控制台组织或帐户取消链接，并且在创建Cloud Volumes ONTAP工作环境时不再可供选择。</block>
-  <block id="63e5ea33dc9b9a10458ac73abae91075" category="paragraph">在NetApp Console中管理基于节点的许可证，以确保每个Cloud Volumes ONTAP系统都具有所需容量的有效许可证。</block>
-  <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">_基于节点的许可证_是上一代许可模型（不适用于新客户）：</block>
-  <block id="0d4e36aae457a1001b3373de2fd510f1" category="list-text">从NetApp购买自带许可证 (BYOL)</block>
-  <block id="17ac9e85cf5b6f7b77acf61fb7721242" category="list-text">从云提供商的市场购买按小时付费 (PAYGO) 订阅</block>
-  <block id="3501754bb69f70ed8f72d23562bab97c" category="paragraph">您可以从NetApp Console管理基于节点的Cloud Volumes ONTAP许可证。</block>
-  <block id="9426b05d2fc423b761e34f9d75b4066d" category="section-title">管理 PAYGO 许可证</block>
-  <block id="fcd2026c30c1b902d032e35337e8888c" category="paragraph">Licenses and subscriptions菜单，您可以查看有关每个 PAYGO Cloud Volumes ONTAP系统的详细信息，包括序列号和 PAYGO 许可证类型。</block>
-  <block id="343c7ed77049523f4d99e8d4c436a330" category="list-text">从下拉菜单中选择*基于节点的许可证*。</block>
-  <block id="87089bacab591352ad6ad6579e34d93e" category="list-text">点击*PAYGO*。</block>
-  <block id="82be8e06ac169a3de0fce42cd01f5760" category="list-text">在表格中查看有关每个 PAYGO 许可证的详细信息。</block>
-  <block id="bbfa86a1d5f6c6f85f7a434a983b34e1" category="inline-image-macro">屏幕截图显示了Licenses and subscriptions页面中含有三个 paygo 许可证的表格。每行显示名称、系统类型、序列号、包以及管理许可证的链接。</block>
-  <block id="cf03ba6c2dea0eb29457f99fdcd69b82" category="paragraph"><block ref="cf03ba6c2dea0eb29457f99fdcd69b82" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a45c9786e45613660f519d740b30671a" category="list-text">如果需要，单击*管理 PAYGO 许可证*来更改 PAYGO 许可证或更改实例类型。</block>
   <block id="00b61e8d20d055a6505bd5bc88e18aeb" category="section-title">管理 BYOL 许可证</block>
   <block id="33375e3f722897194d509130054856dd" category="paragraph">通过添加和删除系统许可证和额外容量许可证来管理您直接从NetApp购买的许可证。</block>
   <block id="6bcfb67e751fc7a3d8dba22f37cbb570" category="inline-link">Cloud Volumes ONTAP的 BYOL 许可可用性受限</block>
   <block id="ceb2294714463ec73c3bb76a991ef103" category="admonition">已限制 BYOL 许可证的购买、延期和续订。有关更多信息，请参阅<block ref="73dc1b5468c2405a47da63a28335f079" category="inline-link-rx"></block> 。</block>
   <block id="4742f5b0c38f7c105542ecb15a214212" category="section-title">添加未分配的许可证</block>
-  <block id="d0052e7943aa77623453a3374803765d" category="paragraph">将基于节点的许可证添加到控制台，以便您在创建新的Cloud Volumes ONTAP系统时可以选择该许可证。控制台将这些许可证标识为_未分配_。</block>
   <block id="9827486f8d28067db0a9918ee807f05e" category="list-text">单击“*未分配*”。</block>
   <block id="7fa863d81a4b4f5f46596207ce29dc50" category="list-text">单击“添加未分配的许可证”。</block>
   <block id="851df848340ac5c43d036a7c8ab531e8" category="list-text">输入许可证的序列号或上传许可证文件。</block>
   <block id="bec033f0535da0f58c9f0a7ccd96e793" category="paragraph">如果您还没有许可证文件，请参阅下面的部分。</block>
   <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">单击“添加许可证”。</block>
   <block id="684d5df2e069e529d4a4c518d654dc44" category="paragraph">控制台添加许可证。在您将许可证与新的Cloud Volumes ONTAP系统关联之前，该许可证将被标识为未分配。此后，许可证将移至“Licenses and subscriptions”中的“BYOL”选项卡。</block>
-  <block id="df5b9d272738b4adaa43e7eb4949a0e5" category="section-title">交换未分配的基于节点的许可证</block>
-  <block id="76a67f9205ca80ce535686592126df9d" category="paragraph">如果您有未分配的基于节点的Cloud Volumes ONTAP许可证且尚未使用，则可以将其转换为NetApp Backup and Recovery许可证、 NetApp Data Classification许可证或NetApp Cloud Tiering许可证来交换该许可证。</block>
   <block id="82330159ba1b86113008185841af38f9" category="paragraph">交换许可证将撤销Cloud Volumes ONTAP许可证并为该服务创建等值美元的许可证：</block>
   <block id="488b3f4a79a8819dabc209f2405c7ba7" category="list-text">Cloud Volumes ONTAP HA 对的许可转换为 51 TiB 直接许可证</block>
   <block id="d8961eb56e3c50e0da29ec362dcb385a" category="list-text">Cloud Volumes ONTAP单节点许可转换为 32 TiB 直接许可证</block>
   <block id="89f1c05b91f27a0ccc4736c51deee49f" category="paragraph">转换后的许可证的到期日期与Cloud Volumes ONTAP许可证相同。</block>
-  <block id="e0225acc5a75bb0346dd94ed24206c81" category="inline-link-macro">查看如何交换基于节点的许可证的演练。</block>
-  <block id="d82de0388f091aa9d43371708eb95310" category="paragraph"><block ref="b4c22b5293d3ee433dee9c4b3632dbee" category="inline-link-macro-rx"></block></block>
   <block id="fff69e388498c7da2216c0a49587cbc8" category="list-text">单击“*交换许可证*”。</block>
   <block id="25abdaf706ab9bbfe1775de2626f958f" category="inline-image-macro">未分配许可证页面上显示的 Exchange 许可证选项的屏幕截图。</block>
   <block id="59069c86e2c388bcb56b4ec04ba7c1b1" category="paragraph"><block ref="59069c86e2c388bcb56b4ec04ba7c1b1" category="inline-image-macro-rx" type="image"></block></block>
@@ -394,10 +374,7 @@
   <block id="98022931ad96bfc8db710666a48e0416" category="list-text">上传许可证文件（如果您有 HA 对，则上传多个文件）。</block>
   <block id="1c523ff18e24f3b5d4d5fa45c4410b01" category="list-text">单击“更新许可证”。</block>
   <block id="825a0cb9a8312e85f3aa745487c0dbe9" category="paragraph">控制台更新Cloud Volumes ONTAP系统上的许可证。</block>
-  <block id="2c2e7695734e076306fc8ba50ca70c1b" category="section-title">管理额外容量许可证</block>
-  <block id="d452bdec5cf94a61fe23690b513f4a71" category="paragraph">您可以为Cloud Volumes ONTAP BYOL 系统购买额外的容量许可证，以分配超过 BYOL 系统许可证提供的 368 TiB 的容量。例如，您可以购买一个额外的许可证容量，为Cloud Volumes ONTAP分配最多 736 TiB 的容量。或者您可以购买三个额外的容量许可证以获得高达 1.4 PiB。</block>
   <block id="6e869ff6c9fd5eb76baa394c52e2ef18" category="section-title">添加容量许可证</block>
-  <block id="41a0a4fe38c3f00a9fae3056955c9f80" category="paragraph">通过控制台右下角的聊天图标联系我们，购买额外容量许可证。购买许可证后，您可以将其应用于Cloud Volumes ONTAP系统。</block>
   <block id="423cdc57679399d47229e2f74dfc102b" category="list-text">单击“添加容量许可证”。</block>
   <block id="b0bfc70f0e7f3f10c4334bd53c2c2a27" category="list-text">输入序列号或上传许可证文件（如果您有 HA 对，则上传文件）。</block>
   <block id="c4e9cc48e592b9354b10b9d54e14525c" category="section-title">更新容量许可证</block>
@@ -408,7 +385,6 @@
   <block id="c320af21170d1ca43751b7580a1125f4" category="list-text">单击容量许可证旁边的操作菜单，然后选择*删除许可证*。</block>
   <block id="03b194a23dcb353466fbfb7acff64363" category="list-text">单击“*删除*”。</block>
   <block id="594cb44c6500d8855ad820b0653e02c7" category="section-title">PAYGO 和 BYOL 之间的变化</block>
-  <block id="a704128156d562fe5860508e9584ee34" category="paragraph">不支持将系统从 PAYGO 按节点许可转换为 BYOL 按节点许可（反之亦然）。如果您想在按使用量付费订阅和 BYOL 订阅之间切换，那么您需要部署一个新系统并将数据从现有系统复制到新系统。</block>
   <block id="c019dbada10848ba4363bd4710a34f6b" category="list-text">创建一个新的Cloud Volumes ONTAP系统。</block>
   <block id="9bd20ffd5e91ec2bb61bc593be38bb13" category="list-text">对于需要复制的每个卷，在系统之间设置一次性数据复制。</block>
   <block id="95b10ad2ca24b4c8bd5673b7383531a2" category="inline-link">了解如何在系统之间复制数据</block>
@@ -716,7 +692,6 @@
   <block id="22a93e112ce29f0d1e8dfc0ede83e119" category="sidebar">管理直接许可证</block>
   <block id="fbf5bb26f6374732410ccc529ef29ffa" category="sidebar">管理Cloud Volumes ONTAP 的许可证</block>
   <block id="c7031958abe0c6bca3058548b703b37f" category="sidebar">Cloud Volumes ONTAP的基于容量的许可证</block>
-  <block id="f34953a70b4a66823b7c335bccdd1df4" category="sidebar">Cloud Volumes ONTAP的基于节点的许可证</block>
   <block id="03d8ffc661918290fbea573239c62f5a" category="sidebar">管理专属优惠</block>
   <block id="21677e75a8fa5c435a73182243b106bf" category="sidebar">管理 AWS 专属优惠</block>
   <block id="b3f0b3ed456c94edb01f453c1e1cdf1f" category="sidebar">管理 Azure 专属优惠</block>
@@ -929,7 +904,6 @@
   <block id="b33d71b64d47a9f0ce606e73ae1e07dd" category="section-title">管理 Cloud Volumes ONTAP 许可证</block>
   <block id="9429e7a2e486548a79c3122d6c6e17e5" category="paragraph">您现在可以通过主页或 *Direct licenses* 选项卡管理 Cloud Volumes ONTAP 许可证。使用 *Marketplace subscriptions* 选项卡可查看您的订阅信息。</block>
   <block id="26d95a9677f28d9a6e340c69085c4cdb" category="paragraph">现在，您可以直接在 NetApp Console 中配置和管理*账单偏好设置*了。此增强功能使管理员能够定义和查看如何在直接 NetApp 许可证、云市场订阅和 Keystone 协议中计费容量使用、续订和成本。</block>
-  <block id="994c93e3e8dbb5133d0b3a075bdac953" category="summary">Licenses and subscriptions 使您能够管理和监控 NetApp Console 许可证、NetApp 市场订阅和 NetApp Keystone。</block>
   <block id="abcc786cf14d5e9fe478edfb4649ff58" category="paragraph">账单来源可以是：</block>
   <block id="0b4c468a31ec1cc5bcf0295ee7207fbe" category="paragraph">账单偏好设置让您可以：</block>
   <block id="646cb6fbd19fdc7e05aa499e55fae69f" category="list-text">跨服务强制执行单个发票联系人列表，</block>
@@ -944,7 +918,6 @@
   <block id="4684cf5eed11e2cbe98bbf41e64baab1" category="cell">启用自定义 CVO 配置</block>
   <block id="8231c7512d38624b6c73e0353c9b018c" category="cell">恢复为默认计费</block>
   <block id="75b55a88e71b87a8f2223b882c8fdb60" category="cell">禁用自定义 CVO 配置</block>
-  <block id="64b2682858b322421bcf1271f43d5958" category="summary">查看每个本地 ONTAP 集群的合同详细信息。</block>
   <block id="3c0e7e5eacb6d93fc4a6e237d9dc57c5" category="paragraph">在 NetApp Console 中，您可以发现 ONTAP 集群，并查看已发现的每个本地 ONTAP 集群的合约详细信息。</block>
   <block id="c874b53d36cb039f81fc4117963fe03f" category="paragraph">NetApp Console 中的 *Overview* 仪表板可帮助您监控许可证和订阅的状态，以确保您可以在订阅到达到期日期或容量限制时管理成本并维护服务。</block>
   <block id="bda8ae7ab8a8500998773e4eb67456f7" category="paragraph">您无法从特定服务的 *Overview* 页面添加新的 licenses 或 subscriptions。您只能从 *Direct licenses* 选项卡添加 licenses，或从 *Marketplace subscriptions* 选项卡添加 subscriptions。</block>
@@ -1005,8 +978,6 @@
   <block id="e7a38d895cb4f8d8f3a338217e14a339" category="cell">卷的唯一标识符。</block>
   <block id="7860112ba253041aab5726c5a5f6777c" category="cell">卷的类型（例如，读写或数据保护）。</block>
   <block id="b41f9ba0b51c7f3d54a31c655a83017f" category="cell">为卷调配的总容量。</block>
-  <block id="6e1a9790b199742bec95dea2070e2f3f" category="summary">在 NetApp Console 中管理基于节点的许可证，以确保每个 Cloud Volumes ONTAP 系统都具有所需容量的有效许可证。</block>
-  <block id="160221c1e99e53b72af8a65c2440852b" category="doc">管理 Cloud Volumes ONTAP 的基于节点的许可证</block>
   <block id="ffc60ab0361bc3c2ef3b3728cce5a231" category="paragraph"><block ref="ac0e83bff3dad475c8103a64904a607a" category="inline-link-rx"></block>。</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="section-title">AWS 中 Cloud Volumes ONTAP 和数据服务的灵活计费</block>
   <block id="3d44d36eec8c18ebcfe6e7df6a18f232" category="inline-link-macro">Cloud Volumes ONTAP 发行说明</block>
@@ -1022,4 +993,36 @@
   <block id="24c5718a7b37767099a36f2e0a1ef086" category="list-text">*Marketplace provider* — 标识处理账单的云平台。提供商确定支持的功能、合同类型和续订规则。例如，AWS Marketplace 订阅使用基于帐户的计费，而 Azure 可能同时支持基于帐户和租户的模型。</block>
   <block id="dbf314f960a580dec77c3328f5a7dcfe" category="list-text">如果您计划通过 AWS 市场中的独立 Cloud Volumes ONTAP 订阅收取 Cloud Volumes ONTAP 容量费用，Cloud Volumes ONTAP 系统必须使用受支持的基于容量的套餐（Essentials 或 Freemium）。独立列表不支持 Professional 套餐，并继续通过 NIS 订阅收费。选择所需套餐后，使用 NetApp Console 中的*账单首选项*选择用于 Cloud Volumes ONTAP 账单的市场订阅。</block>
   <block id="3919d4b9a6b0d4b602f5cdf529c0ed29" category="admonition">对于 AWS，您的帐户可能有多个可用的 NetApp 市场订阅。如果仅关联独立的 Cloud Volumes ONTAP 订阅，则可以使用 Essentials 部署 Cloud Volumes ONTAP，但配置 Backup and Recovery 需要不同的订阅。要选择哪个订阅用于 Cloud Volumes ONTAP 容量计费（包括更改现有系统的计费），请转到 *Administration &gt; Licenses and subscriptions &gt; Billing preferences*。</block>
+  <block id="9c4eec228f427828235463d59daed219" category="admonition">您需要部署控制台代理才能查看订阅信息。查看 Cloud Volumes ONTAP 的 BYOL 许可证也需要代理。</block>
+  <block id="f7eccb32f78ffcc556a6e33ab837a577" category="section-title">查看套餐详细信息</block>
+  <block id="57ad4bfee5bc61eaf0dd46379c75ae34" category="summary">在 NetApp Console 中管理您的 BYOL 许可证，以确保您的 Cloud Volumes ONTAP 系统具有所需容量的有效许可证。</block>
+  <block id="50911d76d8db3cc40925f943f1ca7efb" category="doc">管理 Cloud Volumes ONTAP 的 BYOL 许可证</block>
+  <block id="be02aeef4770b69cefbe40935aba2797" category="inline-link">Cloud Volumes ONTAP 的许可</block>
+  <block id="e2c28fe1b1e987a06f636ae7c3482bae" category="paragraph">Bring-Your-Own License (BYOL) 是 Cloud Volumes ONTAP 中的一种计费模式，您可以通过直接从 NetApp 购买的许可证来支付容量消耗费用，而无需通过市场订阅。在 NetApp Console 中管理您的 BYOL 许可证，以确保您的 Cloud Volumes ONTAP 系统具有所需容量的有效许可证。有关详细信息，请参阅<block ref="d9d28f09a38154804862cc0742f76db1" category="inline-link-rx"></block>。</block>
+  <block id="d7541fdf3e0094adec62a7042b5512d9" category="inline-link">将 Cloud Volumes ONTAP 基于节点的许可证转换为基于容量的许可证</block>
+  <block id="847e45a642e11ad647bc1b931aa93b6f" category="paragraph">NetApp 建议为所有新部署使用基于容量的许可。如果您有使用上一代基于节点的模型的现有许可证，则必须将其转换为基于容量的许可。有关说明，请参见<block ref="6c9714235e53a411b3b31b5a9d910769" category="inline-link-rx"></block>。</block>
+  <block id="6eb61ba1a2f61db4d9f72f3888890463" category="admonition">来自云提供商市场的 PAYGO（即用即付）订阅不适用于私有模式部署。在私有模式下，NetApp 直接提供 BYOL 许可证。基于节点的许可证仅适用于现有的私有模式部署，不能新部署。自 2025 年 6 月 25 日起，NetApp 已限制以私有模式购买、扩展和续订基于节点的许可证。如果您拥有现有的基于节点的许可证，则必须将其转换为基于容量的许可证。</block>
+  <block id="0814f25d2fb19660c0f5a17f5faecd5b" category="inline-link">以私有模式部署 Cloud Volumes ONTAP</block>
+  <block id="993fca3d74b4e0c45a0b63335fff4fc2" category="paragraph">对于新的专用模式部署，请改用基于容量的授权。请参阅<block ref="a830c5764652e2ca74bb3dce260e01c7" category="inline-link-rx"></block>。</block>
+  <block id="63a4063cbdde53629f056f26faa6a46b" category="section-title">管理 PAYGO 订阅</block>
+  <block id="27d6a6ca8e88ba1cb467019b29f60d17" category="paragraph">通过 Licenses and subscriptions 菜单，您可以查看每个 PAYGO Cloud Volumes ONTAP 系统的详细信息，包括序列号和 PAYGO 订阅类型。来自云提供商市场的 PAYGO 订阅仅适用于基于容量的许可。</block>
+  <block id="13cd5e1a4f18ae48c4acaf913e719713" category="list-text">从左侧导航窗格中，选择 *Administration &gt; Licenses and subscriptions*。</block>
+  <block id="aa59cb2e56f1983339b4f7a3a9f01781" category="list-text">在*订阅*选项卡中，查看表格中每个 PAYGO 订阅的详细信息。</block>
+  <block id="ecb37f6560fedafb92676fdb1b5f9987" category="paragraph">Cloud Volumes ONTAP 的 BYOL 许可现在包括直接从 NetApp 购买的基于节点的许可证和基于容量的许可证。</block>
+  <block id="3201bf04f8e8f798a4aa98d5503f6ae2" category="paragraph">对于*基于容量的 BYOL 许可证*，许可证与您的 Console 帐户相关联，而不是与单个 Cloud Volumes ONTAP 系统相关联。每个系统都会收到自己的序列号，但同一帐户下的多个系统均从同一共享容量池中提取资源，并且可以共享底层许可证。</block>
+  <block id="54597fdff28ec33f0b57629ca64201e0" category="inline-link">了解 Cloud Volumes ONTAP 基于节点的 BYOL</block>
+  <block id="2cf18338edb89cdd61b1af6d69b2b37c" category="paragraph">对于*基于节点的 BYOL 许可证*，此池化不适用。每个 Cloud Volumes ONTAP 系统都需要自己的专用系统许可证，许可证不会在系统之间共享。但是，如果删除系统，则可以将其转移到新系统。有关详细信息，请参见<block ref="96c6fa7eefafc39f185da52ed0224caf" category="inline-link-rx"></block>。</block>
+  <block id="4d112c35ca4b3b14458313a7ae735587" category="paragraph">将 BYOL 许可证添加到控制台，以便在创建新的 Cloud Volumes ONTAP 系统时选择该许可证。控制台将这些许可证标识为 _unassigned_。</block>
+  <block id="e210f93d019d79eb717a736686141edf" category="list-text">选择*Licenses*选项卡。</block>
+  <block id="7a28e503d810a66b902935d7d7416c68" category="section-title">交换未分配的许可证</block>
+  <block id="54f3d74d05e04928c274bd8727b58f79" category="paragraph">如果您有未使用的 Cloud Volumes ONTAP 未分配许可证，则可以通过将其转换为 NetApp Backup and Recovery 许可证、NetApp Data Classification 许可证或 NetApp Cloud Tiering 许可证来进行交换。</block>
+  <block id="85a4fe62e8772cbd7af6d80cfd2b0f66" category="inline-link-macro">查看如何交换未分配许可证的演练。</block>
+  <block id="c4a0587d1b95ae7ebd5d636f1e37a7f4" category="paragraph"><block ref="73eee52ffb6a033c9932b0beadef086a" category="inline-link-macro-rx"></block></block>
+  <block id="f872488b1ef144f7365b71552b153b14" category="section-title">管理额外容量许可证（仅限基于节点的许可证）</block>
+  <block id="a7990e086d58662834289acdf9e8b96f" category="paragraph">此过程仅适用于基于节点的许可证。基于容量的许可证从共享容量池中提取，不需要单独的额外容量许可证。</block>
+  <block id="26e6ad1e0111d589d3b8569da89a6cb8" category="paragraph">您可以为 Cloud Volumes ONTAP 基于节点的 BYOL 系统购买额外的容量许可证，以分配超过系统许可证提供的 368 TiB 的容量。例如，您可以购买一个额外的许可证，为 Cloud Volumes ONTAP 分配高达 736 TiB 的容量。或者，您可以购买三个额外的容量许可证，以获得高达 1.4 PiB 的容量。</block>
+  <block id="3067eec78cda68abb45f1950f5b7de68" category="paragraph">请联系您的 NetApp 代表以购买额外的容量许可证。购买许可证后，您可以将其应用于 Cloud Volumes ONTAP 系统。</block>
+  <block id="9013cda65f4f0c57c44bcdefc6feb154" category="admonition">由于 PAYGO 在私有模式下不可用，因此仅适用于标准模式部署。</block>
+  <block id="5eb5d5752efd31fd46b0201cfca01e77" category="paragraph">不支持将系统从 PAYGO 转换为 BYOL 许可（反之亦然）。如果要在 PAYGO 订阅和 BYOL 订阅之间切换，则需要部署新系统并将数据从现有系统复制到新系统。</block>
+  <block id="8c7bfac6e491e33091d317e6d08f0751" category="sidebar">Cloud Volumes ONTAP 的 BYOL 许可证</block>
 </blocks>

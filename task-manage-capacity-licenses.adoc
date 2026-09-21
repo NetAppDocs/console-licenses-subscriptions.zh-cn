@@ -73,8 +73,8 @@ image:screenshot_cvo_licensing_card.png["width=300 屏幕截图显示了您的Cl
 
 
 
-[[viewing-package-details]]
-== 查看包裹详情
+[[view-package-details]]
+== 查看套餐详细信息
 
 您可以通过在Cloud Volumes ONTAP页面上切换到传统模式来查看每个包使用的容量的详细信息。
 

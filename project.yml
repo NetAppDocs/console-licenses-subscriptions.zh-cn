@@ -31,7 +31,7 @@ sidebar:
         entries:
         - title: Cloud Volumes ONTAP的基于容量的许可证
           url: "/task-manage-capacity-licenses.html"
-        - title: Cloud Volumes ONTAP的基于节点的许可证
+        - title: Cloud Volumes ONTAP 的 BYOL 许可证
           url: "/task-manage-node-based-licenses.html"
     - title: 管理专属优惠
       entries:
